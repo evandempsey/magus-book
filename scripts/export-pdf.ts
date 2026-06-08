@@ -4,7 +4,8 @@ import { spawn, type ChildProcessWithoutNullStreams } from "node:child_process";
 import { chromium } from "playwright";
 
 const PORT = Number(process.env.MAGUS_PREVIEW_PORT ?? 4327);
-const URL = `http://127.0.0.1:${PORT}/print/pdf/`;
+const BASE_PATH = (process.env.MAGUS_BASE_PATH ?? "/magus-book").replace(/\/$/, "");
+const URL = `http://127.0.0.1:${PORT}${BASE_PATH}/print/pdf/`;
 const OUTPUT_NAME = "the-magus-francis-barrett.pdf";
 const PUBLIC_OUTPUT = path.resolve("public/downloads", OUTPUT_NAME);
 const DIST_OUTPUT = path.resolve("dist/downloads", OUTPUT_NAME);

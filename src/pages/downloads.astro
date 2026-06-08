@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { manifest } from "../lib/edition";
+import { sitePath } from "../lib/paths";
 ---
 
 <BaseLayout title="Downloads">
@@ -12,12 +13,12 @@ import { manifest } from "../lib/edition";
     </header>
 
     <section class="download-grid">
-      <a class="download-card" href="/downloads/the-magus-francis-barrett.pdf">
+      <a class="download-card" href={sitePath("/downloads/the-magus-francis-barrett.pdf")}>
         <span>PDF</span>
         <h2>Trade-book PDF</h2>
         <p>Print-oriented layout with generated contents, page breaks, plate handling, and embedded styling.</p>
       </a>
-      <a class="download-card" href="/downloads/the-magus-francis-barrett.epub">
+      <a class="download-card" href={sitePath("/downloads/the-magus-francis-barrett.epub")}>
         <span>EPUB</span>
         <h2>Reflowable EPUB</h2>
         <p>Reader-friendly XHTML chapters, navigation document, cover page, and compact edition stylesheet.</p>

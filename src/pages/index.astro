@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getGroupedChapters, manifest } from "../lib/edition";
+import { sitePath } from "../lib/paths";
 
 const grouped = getGroupedChapters();
 ---
@@ -11,16 +12,16 @@ const grouped = getGroupedChapters();
       <p class="eyebrow">Francis Barrett, 1801</p>
       <h1>The Magus</h1>
       <nav class="home-actions" aria-label="Edition shortcuts">
-        <a href="/downloads/the-magus-francis-barrett.pdf">PDF</a>
-        <a href="/downloads/the-magus-francis-barrett.epub">EPUB</a>
-        <a href="/plates/">Plates</a>
+        <a href={sitePath("/downloads/the-magus-francis-barrett.pdf")}>PDF</a>
+        <a href={sitePath("/downloads/the-magus-francis-barrett.epub")}>EPUB</a>
+        <a href={sitePath("/plates/")}>Plates</a>
       </nav>
     </header>
 
     <section class="home-section" aria-labelledby="home-contents-heading">
       <div class="home-section-heading">
         <h2 id="home-contents-heading">Contents</h2>
-        <a href="/contents/">Search contents</a>
+        <a href={sitePath("/contents/")}>Search contents</a>
       </div>
 
       <div class="home-toc">
@@ -30,7 +31,7 @@ const grouped = getGroupedChapters();
             <ol>
               {section.chapters.map((chapter) => (
                 <li>
-                  <a href={`/read/${chapter.slug}/`}>{chapter.title}</a>
+                  <a href={sitePath(`/read/${chapter.slug}/`)}>{chapter.title}</a>
                 </li>
               ))}
             </ol>
@@ -42,22 +43,22 @@ const grouped = getGroupedChapters();
     <section class="home-section" aria-labelledby="home-downloads-heading">
       <div class="home-section-heading">
         <h2 id="home-downloads-heading">Downloads</h2>
-        <a href="/downloads/">Downloads page</a>
+        <a href={sitePath("/downloads/")}>Downloads page</a>
       </div>
       <div class="home-downloads">
-        <a href="/downloads/the-magus-francis-barrett.pdf">PDF</a>
-        <a href="/downloads/the-magus-francis-barrett.epub">EPUB</a>
+        <a href={sitePath("/downloads/the-magus-francis-barrett.pdf")}>PDF</a>
+        <a href={sitePath("/downloads/the-magus-francis-barrett.epub")}>EPUB</a>
       </div>
     </section>
 
     <section class="home-section" aria-labelledby="home-plates-heading">
       <div class="home-section-heading">
         <h2 id="home-plates-heading">Plates</h2>
-        <a href="/plates/">Open plate index</a>
+        <a href={sitePath("/plates/")}>Open plate index</a>
       </div>
       <div class="home-plates">
         {manifest.plates.map((plate) => (
-          <a href="/plates/">
+          <a href={sitePath("/plates/")}>
             <span>{plate.caption}</span>
           </a>
         ))}

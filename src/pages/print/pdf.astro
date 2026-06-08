@@ -1,8 +1,13 @@
 ---
 import { chapters, manifest } from "../../lib/edition";
+import { localAssetPath, rewriteLocalHtmlPaths } from "../../lib/paths";
 import "../../styles/global.css";
 
 const coverPlate = manifest.plates.find((plate) => plate.sourceUrl.endsWith("/pl01.jpg")) ?? manifest.plates.find((plate) => plate.localPath);
+const printChapters = chapters.map((chapter) => ({
+  ...chapter,
+  html: rewriteLocalHtmlPaths(chapter.html)
+}));
 ---
 
 <!doctype html>
@@ -13,7 +18,7 @@ const coverPlate = manifest.plates.find((plate) => plate.sourceUrl.endsWith("/pl
   </head>
   <body class="print-body">
     <section class="print-cover">
-      {coverPlate?.localPath && <img src={coverPlate.localPath} alt="" />}
+      {coverPlate?.localPath && <img src={localAssetPath(coverPlate.localPath)} alt="" />}
       <div>
         <p>{manifest.publicationYear}</p>
         <h1>{manifest.title}</h1>
@@ -31,7 +36,7 @@ const coverPlate = manifest.plates.find((plate) => plate.sourceUrl.endsWith("/pl
       </ol>
     </section>
 
-    {chapters.map((chapter) => (
+    {printChapters.map((chapter) => (
       <article class="print-chapter" id={chapter.slug}>
         <header>
           <p>{chapter.book} · {chapter.section}</p>

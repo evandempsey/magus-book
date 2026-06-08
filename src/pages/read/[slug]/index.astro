@@ -2,6 +2,7 @@
 import ReaderControls from "../../../components/ReaderControls.astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { chapters, getGroupedChapters, readingMinutes } from "../../../lib/edition";
+import { rewriteLocalHtmlPaths, sitePath } from "../../../lib/paths";
 import type { EditionChapter } from "../../../lib/types";
 
 export function getStaticPaths() {
@@ -19,20 +20,21 @@ const { chapter } = Astro.props;
 const grouped = getGroupedChapters();
 const previous = chapter.previousSlug ? chapters.find((item) => item.slug === chapter.previousSlug) : undefined;
 const next = chapter.nextSlug ? chapters.find((item) => item.slug === chapter.nextSlug) : undefined;
+const chapterHtml = rewriteLocalHtmlPaths(chapter.html);
 ---
 
 <BaseLayout title={chapter.title} bodyClass="reader-page">
   <ReaderControls />
   <main class="reader-shell">
     <aside class="reader-toc" aria-label="Edition contents">
-      <a class="toc-home" href="/contents/">Contents</a>
+      <a class="toc-home" href={sitePath("/contents/")}>Contents</a>
       {grouped.map((section) => (
         <details open={section.chapterSlugs.includes(chapter.slug)}>
           <summary>{section.title}</summary>
           <ol>
             {section.chapters.map((item) => (
               <li>
-                <a class:list={[{ active: item.slug === chapter.slug }]} href={`/read/${item.slug}/`}>{item.title}</a>
+                <a class:list={[{ active: item.slug === chapter.slug }]} href={sitePath(`/read/${item.slug}/`)}>{item.title}</a>
               </li>
             ))}
           </ol>
@@ -49,7 +51,7 @@ const next = chapter.nextSlug ? chapters.find((item) => item.slug === chapter.ne
             <ol>
               {section.chapters.map((item) => (
                 <li>
-                  <a class:list={[{ active: item.slug === chapter.slug }]} href={`/read/${item.slug}/`}>{item.title}</a>
+                  <a class:list={[{ active: item.slug === chapter.slug }]} href={sitePath(`/read/${item.slug}/`)}>{item.title}</a>
                 </li>
               ))}
             </ol>
@@ -67,10 +69,10 @@ const next = chapter.nextSlug ? chapters.find((item) => item.slug === chapter.ne
           <div class="appendix-note">Appendix material: Sacred Texts notes that the biographical section may be later printer filler rather than Barrett's own work.</div>
         )}
       </header>
-      <div class="prose" set:html={chapter.html} />
+      <div class="prose" set:html={chapterHtml} />
       <nav class="reader-nav" aria-label="Chapter navigation">
-        {previous ? <a href={`/read/${previous.slug}/`} rel="prev">Previous<br /><span>{previous.title}</span></a> : <span />}
-        {next ? <a href={`/read/${next.slug}/`} rel="next">Next<br /><span>{next.title}</span></a> : <span />}
+        {previous ? <a href={sitePath(`/read/${previous.slug}/`)} rel="prev">Previous<br /><span>{previous.title}</span></a> : <span />}
+        {next ? <a href={sitePath(`/read/${next.slug}/`)} rel="next">Next<br /><span>{next.title}</span></a> : <span />}
       </nav>
     </article>
   </main>

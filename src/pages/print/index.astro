@@ -1,3 +1,5 @@
 ---
-return Astro.redirect("/print/pdf/");
+import { sitePath } from "../../lib/paths";
+
+return Astro.redirect(sitePath("/print/pdf/"));
 ---

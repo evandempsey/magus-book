@@ -3,8 +3,12 @@ import path from "node:path";
 import { chromium, type Page } from "playwright";
 import manifest from "../data/edition/manifest.json" with { type: "json" };
 
-const BASE_URL = process.env.MAGUS_BASE_URL ?? "http://127.0.0.1:4328";
+const BASE_URL = (process.env.MAGUS_BASE_URL ?? "http://127.0.0.1:4328/magus-book").replace(/\/$/, "");
 const OUT_DIR = path.resolve("test-results/site");
+
+function pageUrl(pathname: string): string {
+  return `${BASE_URL}${pathname}`;
+}
 
 async function assertText(page: Page, text: string) {
   const count = await page.getByText(text, { exact: false }).count();
@@ -44,6 +48,43 @@ async function assertAllImagesLoaded(page: Page, selector: string, expectedCount
   }
 }
 
+async function assertAstroStylesheetLoaded(page: Page) {
+  const basePath = new URL(BASE_URL).pathname.replace(/\/$/, "");
+  const stylesheetHrefs = await page.locator('link[rel="stylesheet"]').evaluateAll((links) => {
+    return links.map((link) => (link as HTMLLinkElement).href);
+  });
+  const hasBasePathStylesheet = stylesheetHrefs.some((href) => {
+    return new URL(href).pathname.startsWith(`${basePath}/_astro/`);
+  });
+
+  if (!hasBasePathStylesheet) {
+    throw new Error(`Expected an Astro stylesheet under ${basePath}/_astro/`);
+  }
+
+  const loadedStylesheetCount = await page.evaluate(() => document.styleSheets.length);
+  if (loadedStylesheetCount === 0) throw new Error("No stylesheets loaded");
+}
+
+async function assertInternalLinkUsesBase(page: Page, selector: string, expectedPath: string) {
+  const href = await page.locator(selector).first().getAttribute("href");
+  if (!href) throw new Error(`Missing href for ${selector}`);
+  const expectedHref = pageUrl(expectedPath);
+  if (new URL(href, BASE_URL).href !== expectedHref) {
+    throw new Error(`Expected ${selector} to link to ${expectedHref}, found ${href}`);
+  }
+}
+
+async function assertDownloadAvailable(page: Page, pathname: string) {
+  const response = await page.request.get(pageUrl(pathname));
+  if (!response.ok()) {
+    throw new Error(`Download failed for ${pathname}: ${response.status()}`);
+  }
+  const body = await response.body();
+  if (body.length < 1024) {
+    throw new Error(`Download was unexpectedly small for ${pathname}: ${body.length} bytes`);
+  }
+}
+
 async function main() {
   await mkdir(OUT_DIR, { recursive: true });
   const browser = await chromium.launch({ headless: true });
@@ -54,7 +95,8 @@ async function main() {
     if (message.type() === "error") consoleErrors.push(message.text());
   });
 
-  await page.goto(`${BASE_URL}/`, { waitUntil: "networkidle" });
+  await page.goto(pageUrl("/"), { waitUntil: "networkidle" });
+  await assertAstroStylesheetLoaded(page);
   await assertText(page, "The Magus");
   await assertText(page, "Contents");
   await assertText(page, "Downloads");
@@ -63,32 +105,34 @@ async function main() {
   await assertNoText(page, "Readable, sourced, complete");
   await assertNoText(page, "Ten structured sections");
   await assertNoText(page, "plate references");
+  await assertInternalLinkUsesBase(page, '.home-section-heading a[href*="/contents/"]', "/contents/");
   await page.screenshot({ path: path.join(OUT_DIR, "home.png"), fullPage: true });
 
-  await page.goto(`${BASE_URL}/contents/`, { waitUntil: "networkidle" });
+  await page.goto(pageUrl("/contents/"), { waitUntil: "networkidle" });
   await assertText(page, "The First Principles of Natural Magic");
   await page.getByLabel("Search contents").fill("Cabala");
   await assertText(page, "Of The Cabala");
+  await assertInternalLinkUsesBase(page, '.toc-entry a[href*="/read/"]', "/read/ma100-title-page/");
   await page.screenshot({ path: path.join(OUT_DIR, "contents-search.png"), fullPage: true });
 
-  await page.goto(`${BASE_URL}/read/ma100-title-page/`, { waitUntil: "networkidle" });
+  await page.goto(pageUrl("/read/ma100-title-page/"), { waitUntil: "networkidle" });
   await assertText(page, "Cabalistic Art");
   await page.getByLabel("Increase text size").click();
   await page.getByLabel("Toggle dark reading theme").click();
   await page.screenshot({ path: path.join(OUT_DIR, "reader-title-page.png"), fullPage: true });
 
-  await page.goto(`${BASE_URL}/read/ma150-chapter-xxviii-the-magic-tables-of-the-planets/`, { waitUntil: "networkidle" });
+  await page.goto(pageUrl("/read/ma150-chapter-xxviii-the-magic-tables-of-the-planets/"), { waitUntil: "networkidle" });
   await assertText(page, "THE MAGIC TABLES OF THE PLANETS");
   await assertImageLoaded(page, ".plate-figure img");
   await page.screenshot({ path: path.join(OUT_DIR, "reader-plate.png"), fullPage: true });
 
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto(`${BASE_URL}/read/ma101-preface/`, { waitUntil: "networkidle" });
+  await page.goto(pageUrl("/read/ma101-preface/"), { waitUntil: "networkidle" });
   await assertText(page, "Preface");
   await page.screenshot({ path: path.join(OUT_DIR, "reader-mobile.png"), fullPage: true });
 
   await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.goto(`${BASE_URL}/plates/`, { waitUntil: "networkidle" });
+  await page.goto(pageUrl("/plates/"), { waitUntil: "networkidle" });
   await assertText(page, "Plate Catalog");
   await assertImageLoaded(page, ".plate-feature img");
   await assertAllImagesLoaded(page, ".plate-card img", manifest.plates.length);
@@ -98,9 +142,11 @@ async function main() {
   }
   await page.screenshot({ path: path.join(OUT_DIR, "plates.png"), fullPage: true });
 
-  await page.goto(`${BASE_URL}/downloads/`, { waitUntil: "networkidle" });
+  await page.goto(pageUrl("/downloads/"), { waitUntil: "networkidle" });
   await assertText(page, "Trade-book PDF");
   await assertText(page, "Reflowable EPUB");
+  await assertDownloadAvailable(page, "/downloads/the-magus-francis-barrett.pdf");
+  await assertDownloadAvailable(page, "/downloads/the-magus-francis-barrett.epub");
   await page.screenshot({ path: path.join(OUT_DIR, "downloads.png"), fullPage: true });
 
   await browser.close();

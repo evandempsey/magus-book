@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { chapters, manifest } from "../lib/edition";
+import { localAssetPath, sitePath } from "../lib/paths";
 
 const plates = manifest.plates;
 const chaptersBySlug = new Map(chapters.map((chapter) => [chapter.slug, chapter]));
@@ -17,7 +18,7 @@ const featuredPlate = plates.find((plate) => plate.sourceUrl.endsWith("/pl01.jpg
 
     {featuredPlate?.localPath && (
       <section class="plate-feature">
-        <img src={featuredPlate.localPath} alt={featuredPlate.caption} />
+        <img src={localAssetPath(featuredPlate.localPath)} alt={featuredPlate.caption} />
         <div>
           <p class="eyebrow">Featured Plate</p>
           <h2>{featuredPlate.caption}</h2>
@@ -32,14 +33,14 @@ const featuredPlate = plates.find((plate) => plate.sourceUrl.endsWith("/pl01.jpg
         return (
           <article class="plate-card">
             {plate.localPath ? (
-              <img src={plate.localPath} alt={plate.caption} loading="eager" decoding="sync" />
+              <img src={localAssetPath(plate.localPath)} alt={plate.caption} loading="eager" decoding="sync" />
             ) : (
               <div class="plate-placeholder" aria-hidden="true">{plate.caption}</div>
             )}
             <div>
               <h2>{plate.caption}</h2>
               <p>{chapter?.title}</p>
-              <a href={`/read/${plate.chapterSlug}/`}>Open chapter</a>
+              <a href={sitePath(`/read/${plate.chapterSlug}/`)}>Open chapter</a>
               <a href={plate.sourceUrl}>Source reference</a>
             </div>
           </article>

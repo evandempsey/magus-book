@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { sitePath } from "../lib/paths";
 
 interface Props {
   title?: string;
@@ -28,14 +29,14 @@ const pageTitle = title === "The Magus" ? title : `${title} | The Magus`;
   <body class={bodyClass}>
     <div class="site-shell">
       <header class="site-header" aria-label="Primary">
-        <a class="brand-mark" href="/">
+        <a class="brand-mark" href={sitePath("/")}>
           <span class="brand-kicker">Francis Barrett</span>
           <span>The Magus</span>
         </a>
         <nav class="primary-nav" aria-label="Primary navigation">
-          <a href="/contents/">Contents</a>
-          <a href="/plates/">Plates</a>
-          <a href="/downloads/">Downloads</a>
+          <a href={sitePath("/contents/")}>Contents</a>
+          <a href={sitePath("/plates/")}>Plates</a>
+          <a href={sitePath("/downloads/")}>Downloads</a>
         </nav>
       </header>
       <slot />
