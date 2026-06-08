@@ -1,0 +1,77 @@
+---
+import ReaderControls from "../../../components/ReaderControls.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { chapters, getGroupedChapters, readingMinutes } from "../../../lib/edition";
+import type { EditionChapter } from "../../../lib/types";
+
+export function getStaticPaths() {
+  return chapters.map((chapter) => ({
+    params: { slug: chapter.slug },
+    props: { chapter }
+  }));
+}
+
+interface Props {
+  chapter: EditionChapter;
+}
+
+const { chapter } = Astro.props;
+const grouped = getGroupedChapters();
+const previous = chapter.previousSlug ? chapters.find((item) => item.slug === chapter.previousSlug) : undefined;
+const next = chapter.nextSlug ? chapters.find((item) => item.slug === chapter.nextSlug) : undefined;
+---
+
+<BaseLayout title={chapter.title} bodyClass="reader-page">
+  <ReaderControls />
+  <main class="reader-shell">
+    <aside class="reader-toc" aria-label="Edition contents">
+      <a class="toc-home" href="/contents/">Contents</a>
+      {grouped.map((section) => (
+        <details open={section.chapterSlugs.includes(chapter.slug)}>
+          <summary>{section.title}</summary>
+          <ol>
+            {section.chapters.map((item) => (
+              <li>
+                <a class:list={[{ active: item.slug === chapter.slug }]} href={`/read/${item.slug}/`}>{item.title}</a>
+              </li>
+            ))}
+          </ol>
+        </details>
+      ))}
+    </aside>
+
+    <details class="reader-mobile-toc">
+      <summary>Contents</summary>
+      <div>
+        {grouped.map((section) => (
+          <details open={section.chapterSlugs.includes(chapter.slug)}>
+            <summary>{section.title}</summary>
+            <ol>
+              {section.chapters.map((item) => (
+                <li>
+                  <a class:list={[{ active: item.slug === chapter.slug }]} href={`/read/${item.slug}/`}>{item.title}</a>
+                </li>
+              ))}
+            </ol>
+          </details>
+        ))}
+      </div>
+    </details>
+
+    <article class="reader-article">
+      <header class="reader-heading">
+        <p class="eyebrow">{chapter.book} · {chapter.section}</p>
+        <h1>{chapter.title}</h1>
+        <p>{chapter.wordCount.toLocaleString()} words · {readingMinutes(chapter.wordCount)} min read · <a href={chapter.sourceUrl}>source</a></p>
+        {chapter.isAppendix && (
+          <div class="appendix-note">Appendix material: Sacred Texts notes that the biographical section may be later printer filler rather than Barrett's own work.</div>
+        )}
+      </header>
+      <div class="prose" set:html={chapter.html} />
+      <nav class="reader-nav" aria-label="Chapter navigation">
+        {previous ? <a href={`/read/${previous.slug}/`} rel="prev">Previous<br /><span>{previous.title}</span></a> : <span />}
+        {next ? <a href={`/read/${next.slug}/`} rel="next">Next<br /><span>{next.title}</span></a> : <span />}
+      </nav>
+    </article>
+  </main>
+</BaseLayout>

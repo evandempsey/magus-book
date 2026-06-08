@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { manifest } from "../lib/edition";
+---
+
+<BaseLayout title="Downloads">
+  <main class="page-wrap">
+    <header class="page-heading compact">
+      <p class="eyebrow">Portable Edition</p>
+      <h1>Downloads</h1>
+      <p>The PDF and EPUB exports are generated from the same canonical edition data as the website.</p>
+    </header>
+
+    <section class="download-grid">
+      <a class="download-card" href="/downloads/the-magus-francis-barrett.pdf">
+        <span>PDF</span>
+        <h2>Trade-book PDF</h2>
+        <p>Print-oriented layout with generated contents, page breaks, plate handling, and embedded styling.</p>
+      </a>
+      <a class="download-card" href="/downloads/the-magus-francis-barrett.epub">
+        <span>EPUB</span>
+        <h2>Reflowable EPUB</h2>
+        <p>Reader-friendly XHTML chapters, navigation document, cover page, and compact edition stylesheet.</p>
+      </a>
+    </section>
+
+    <section class="source-note">
+      <h2>Source</h2>
+      <p>{manifest.source.label}: <a href={manifest.source.url}>{manifest.source.url}</a></p>
+    </section>
+  </main>
+</BaseLayout>

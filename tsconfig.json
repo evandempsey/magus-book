@@ -1,0 +1,14 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "@lib/*": ["src/lib/*"],
+      "@data/*": ["data/edition/*"]
+    },
+    "types": ["node"]
+  },
+  "include": ["src", "scripts", "tests", "astro.config.mjs"],
+  "exclude": ["dist", "node_modules"]
+}

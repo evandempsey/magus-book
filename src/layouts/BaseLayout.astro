@@ -1,0 +1,51 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  bodyClass?: string;
+}
+
+const {
+  title = "The Magus",
+  description = "A faithful cleaned digital edition of Francis Barrett's The Magus.",
+  bodyClass = ""
+} = Astro.props;
+
+const pageTitle = title === "The Magus" ? title : `${title} | The Magus`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f6f3ea" />
+    <title>{pageTitle}</title>
+  </head>
+  <body class={bodyClass}>
+    <div class="site-shell">
+      <header class="site-header" aria-label="Primary">
+        <a class="brand-mark" href="/">
+          <span class="brand-kicker">Francis Barrett</span>
+          <span>The Magus</span>
+        </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a href="/contents/">Contents</a>
+          <a href="/plates/">Plates</a>
+          <a href="/downloads/">Downloads</a>
+        </nav>
+      </header>
+      <slot />
+    </div>
+    <script>
+      const root = document.documentElement;
+      const savedTheme = localStorage.getItem("magus-theme");
+      const savedScale = localStorage.getItem("magus-text-scale");
+      if (savedTheme) root.dataset.theme = savedTheme;
+      if (savedScale) root.style.setProperty("--reader-scale", savedScale);
+    </script>
+  </body>
+</html>

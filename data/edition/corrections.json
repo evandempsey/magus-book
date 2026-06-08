@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ma100-long-s-cabaliftic",
+    "chapterId": "ma100",
+    "before": "Cabaliftic",
+    "after": "Cabalistic",
+    "reason": "Corrects a long-s OCR artefact on the 1801 title page."
+  },
+  {
+    "id": "ma100-long-s-celeftial",
+    "chapterId": "ma100",
+    "before": "Celeftial",
+    "after": "Celestial",
+    "reason": "Corrects a long-s OCR artefact on the 1801 title page."
+  },
+  {
+    "id": "ma100-long-s-fhewing",
+    "chapterId": "ma100",
+    "before": "fhewing",
+    "after": "shewing",
+    "reason": "Corrects a long-s OCR artefact while preserving Barrett's period spelling."
+  },
+  {
+    "id": "ma100-long-s-fupernatural",
+    "chapterId": "ma100",
+    "before": "fupernatural",
+    "after": "supernatural",
+    "reason": "Corrects a long-s OCR artefact on the 1801 title page."
+  },
+  {
+    "id": "ma100-long-s-conftruction",
+    "chapterId": "ma100",
+    "before": "Conftruction",
+    "after": "Construction",
+    "reason": "Corrects a long-s OCR artefact on the 1801 title page."
+  },
+  {
+    "id": "ma100-long-s-compofition",
+    "chapterId": "ma100",
+    "before": "Compofition",
+    "after": "Composition",
+    "reason": "Corrects a long-s OCR artefact on the 1801 title page."
+  },
+  {
+    "id": "ma100-long-s-glaffes",
+    "chapterId": "ma100",
+    "before": "Glaffes",
+    "after": "Glasses",
+    "reason": "Corrects a long-s OCR artefact on the 1801 title page."
+  },
+  {
+    "id": "ma100-long-s-secret",
+    "chapterId": "ma100",
+    "before": "fecret",
+    "after": "secret",
+    "reason": "Corrects a long-s OCR artefact on the 1801 title page."
+  },
+  {
+    "id": "ma100-long-s-mysteries",
+    "chapterId": "ma100",
+    "before": "Myfteries",
+    "after": "Mysteries",
+    "reason": "Corrects a long-s OCR artefact on the 1801 title page."
+  },
+  {
+    "id": "ma100-long-s-use",
+    "chapterId": "ma100",
+    "before": "Ufe",
+    "after": "Use",
+    "reason": "Corrects a long-s OCR artefact on the 1801 title page."
+  }
+]

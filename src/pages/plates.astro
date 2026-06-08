@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { chapters, manifest } from "../lib/edition";
+
+const plates = manifest.plates;
+const chaptersBySlug = new Map(chapters.map((chapter) => [chapter.slug, chapter]));
+const featuredPlate = plates.find((plate) => plate.sourceUrl.endsWith("/pl01.jpg")) ?? plates.find((plate) => plate.localPath);
+---
+
+<BaseLayout title="Plates">
+  <main class="page-wrap">
+    <header class="page-heading">
+      <p class="eyebrow">Figures And Engravings</p>
+      <h1>Plate Catalog</h1>
+      <p>{plates.length} image references were discovered in the source transcription. Each one is copied locally from Sacred Texts source imagery so the website, PDF, and EPUB stay self-contained.</p>
+    </header>
+
+    {featuredPlate?.localPath && (
+      <section class="plate-feature">
+        <img src={featuredPlate.localPath} alt={featuredPlate.caption} />
+        <div>
+          <p class="eyebrow">Featured Plate</p>
+          <h2>{featuredPlate.caption}</h2>
+          <p>The full plate set is available as local static assets, with original Sacred Texts references retained for attribution.</p>
+        </div>
+      </section>
+    )}
+
+    <div class="plate-grid">
+      {plates.map((plate) => {
+        const chapter = chaptersBySlug.get(plate.chapterSlug);
+        return (
+          <article class="plate-card">
+            {plate.localPath ? (
+              <img src={plate.localPath} alt={plate.caption} loading="eager" decoding="sync" />
+            ) : (
+              <div class="plate-placeholder" aria-hidden="true">{plate.caption}</div>
+            )}
+            <div>
+              <h2>{plate.caption}</h2>
+              <p>{chapter?.title}</p>
+              <a href={`/read/${plate.chapterSlug}/`}>Open chapter</a>
+              <a href={plate.sourceUrl}>Source reference</a>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+  </main>
+</BaseLayout>

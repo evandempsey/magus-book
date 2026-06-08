@@ -1,0 +1,3305 @@
+{
+  "title": "The Magus",
+  "subtitle": "Or Celestial Intelligencer",
+  "author": "Francis Barrett",
+  "publicationYear": 1801,
+  "generatedAt": "2026-06-06T02:05:54.678Z",
+  "source": {
+    "label": "Internet Sacred Text Archive",
+    "url": "https://www.sacred-texts.com/grim/magus/index.htm",
+    "readerFallback": "https://r.jina.ai/http://https://www.sacred-texts.com/grim/magus/index.htm"
+  },
+  "totalChapters": 140,
+  "totalWords": 132313,
+  "sections": [
+    {
+      "id": "book-i-front-matter",
+      "title": "Front Matter",
+      "book": "Book I",
+      "order": 1,
+      "chapterSlugs": [
+        "ma100-title-page",
+        "ma101-preface",
+        "ma102-table-of-contents",
+        "ma103-directions-for-placing-the-plates",
+        "ma104-advertisement",
+        "ma105-introduction-to-the-study-of-natural-magic"
+      ]
+    },
+    {
+      "id": "book-i-the-first-principles-of-natural-magic-book-the-first",
+      "title": "The First Principles of Natural Magic: Book the First",
+      "book": "Book I",
+      "order": 2,
+      "chapterSlugs": [
+        "ma106-chapter-i-natural-magic-defined",
+        "ma107-chapter-ii-of-the-wonders-of-natural-magic",
+        "ma108-chapter-iii-of-amulets-charms-and-enchantments",
+        "ma109-chapter-iv-of-unctions-philters-potions-and-c-their-magical-virtues",
+        "ma110-chapter-v-of-magical-suspensions-and-alligations",
+        "ma111-chapter-vi-of-antipathies",
+        "ma112-chapter-vii-of-the-occult-virtues-of-things",
+        "ma113-chapter-viii-of-the-wonderful-virtues-of-some-kind-of-precious-stones",
+        "ma114-chapter-ix-of-the-mixtures-of-natural-things-one-with-another-and-the-producing-",
+        "ma115-chapter-x-of-the-art-of-fascination-binding-sorceries-magical-confections-lights"
+      ]
+    },
+    {
+      "id": "book-i-the-jewel-of-alchymy",
+      "title": "The Jewel of Alchymy",
+      "book": "Book I",
+      "order": 3,
+      "chapterSlugs": [
+        "ma116-title-page",
+        "ma117-epistle-to-museus",
+        "ma118-to-the-reader",
+        "ma119-part-the-first-of-alchymy-its-divine-origin",
+        "ma120-of-the-preparation-of-a-man-to-qualify-him-for-the-search-of-this-treasure",
+        "ma121-part-ii-of-the-manner-of-extracting-the-first-matter-of-the-philosophers-stone"
+      ]
+    },
+    {
+      "id": "book-i-the-celestial-intelligencer",
+      "title": "The Celestial Intelligencer",
+      "book": "Book I",
+      "order": 4,
+      "chapterSlugs": [
+        "ma122-title-page",
+        "ma123-chapter-i-of-the-four-elements-and-their-natural-qualities",
+        "ma124-chapter-ii-of-the-properties-and-wonderful-nature-of-fire-and-earth",
+        "ma125-chapter-iii-of-the-water-and-air",
+        "ma126-chapter-iv-of-compound-or-mixed-bodies",
+        "ma127-chapter-v-that-the-elements-are-in-the-heavens-in-the-stars-in-devils-angels-int",
+        "ma128-chapter-vi-that-the-wisdom-of-god-works-by-the-medium-of-second-causes",
+        "ma129-chapter-vii-of-the-spirit-of-the-world",
+        "ma130-chapter-viii-of-the-seals-and-characters-impressed-by-celestials-upon-natural-th",
+        "ma131-chapter-ix-treating-of-the-virtue-and-efficacy-of-perfumes",
+        "ma132-chapter-x-of-the-composition-of-some-perfumes-appropriated-to-the-seven-planets",
+        "ma133-chapter-xi-of-the-composition-and-magic-virtue-of-rings",
+        "ma134-chapter-xii-that-the-passions-of-the-mind-are-assisted-by-celestials",
+        "ma135-chapter-xiii-how-man-s-mind-may-be-joined-with-the-mind-of-intelligences-and-cel",
+        "ma136-chapter-xiv-shewing-the-necessity-of-mathematical-knowledge",
+        "ma137-chapter-xv-the-great-virtues-of-numbers-as-well-in-natural-things-as-in-supernat",
+        "ma138-chapter-xvi-of-the-scale-of-unity",
+        "ma139-chapter-xvii-of-the-number-two-and-scale",
+        "ma140-chapter-xviii-of-the-number-three-and-scale",
+        "ma141-chapter-xix-of-the-number-four-and-scale",
+        "ma142-chapter-xx-of-the-number-five-and-its-scale",
+        "ma143-chapter-xii-of-the-number-six-and-the-scale",
+        "ma144-chapter-xxii-of-the-number-seven-and-the-scale",
+        "ma145-chapter-xxiii-of-the-number-eight-and-the-scale",
+        "ma146-chapter-xxiv-of-the-number-nine-and-the-scale",
+        "ma147-chapter-xxv-of-the-number-ten-and-the-scale",
+        "ma148-chapter-xxvi-of-the-numbers-eleven-and-twelve-with-the-cabalistical-scale",
+        "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+        "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+        "ma151-chapter-xxix-of-the-observation-of-the-celestials-necessary-in-every-magical-wor",
+        "ma152-chapter-xxx-when-the-planets-are-of-most-powerful-influence",
+        "ma153-chapter-xxxi-observations-on-the-fixed-stars-and-their-names-and-natures",
+        "ma154-chapter-xxxii-of-the-sun-and-moon-and-their-magical-considerations",
+        "ma155-chapter-xxxiii-of-the-twenty-eight-mansions-of-the-moon-and-their-virtues",
+        "ma156-chapter-xxxiv-how-some-artificial-things-as-images-seals-and-such-like-may-obtai",
+        "ma157-chapter-xxxv-of-the-images-of-the-zodiac",
+        "ma158-chapter-xxxvi-of-the-images-of-saturn",
+        "ma159-chapter-xxxvii-of-the-images-of-jupiter",
+        "ma160-chapter-xxxviii-of-the-images-of-mars",
+        "ma161-chapter-xxxix-of-the-images-of-the-sun",
+        "ma162-chapter-xl-of-the-images-of-venus",
+        "ma163-chapter-xli-of-the-images-of-mercury",
+        "ma164-chapter-xliii-of-the-images-of-the-head-and-tail-of-the-dragon-of-the-moon",
+        "ma165-chapter-xliv-of-the-images-of-the-mansions-of-the-moon",
+        "ma166-chapter-xlv-that-human-imprecations-naturally-impress-their-powers-upon-external",
+        "ma167-chapter-xlvi-conclusion"
+      ]
+    },
+    {
+      "id": "book-ii-magnetism",
+      "title": "Magnetism",
+      "book": "Book II",
+      "order": 5,
+      "chapterSlugs": [
+        "ma200-title-page",
+        "ma201-introduction",
+        "ma202-chapter-i-the-magnetic-or-attractive-power-or-faculty",
+        "ma203-chapter-ii-of-sympathetic-medicines",
+        "ma204-chapter-iii-of-the-magnetic-or-sympathetic-unguent",
+        "ma205-chapter-iv-of-the-armary-unguent-or-weapon-salve",
+        "ma206-chapter-v-of-the-imaginative-power-and-the-magnetism-of-the-natural-spirits",
+        "ma207-chapter-vi-of-witchcraft",
+        "ma208-chapter-vii-of-the-vital-spirit-and-c",
+        "ma209-chapter-viii-of-the-magical-power",
+        "ma210-chapter-ix-of-the-exciting-or-stirring-up-the-magical-virtue",
+        "ma211-chapter-x-of-the-magical-virtue-of-the-soul-and-the-mediums-by-which-it-acts"
+      ]
+    },
+    {
+      "id": "book-ii-the-cabala-or-the-secret-mysteries-of-ceremonial-magic",
+      "title": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "book": "Book II",
+      "order": 6,
+      "chapterSlugs": [
+        "ma212-title-page",
+        "ma213-chapter-i-of-the-cabala",
+        "ma214-chapter-ii-what-dignity-and-preparation-is-essentially-necessary-to-him-who-woul",
+        "ma215-chapter-iii-that-the-knowledge-of-the-true-god-is-necessary-for-a-magician",
+        "ma216-chapter-iv-of-divine-emanations-and-ten-sephiroths",
+        "ma217-chapter-v-of-the-power-and-virtue-of-the-divine-names",
+        "ma218-chapter-vi-of-intelligences-and-spirits",
+        "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures",
+        "ma220-chapter-vii-of-the-annoyance-of-evil-spirits-and-the-preservation-we-have-from-g",
+        "ma221-chapter-ix-that-there-is-a-threefold-keeper-of-man-and-from-whence-each-of-them-",
+        "ma222-chapter-x-of-the-tongue-of-angels-and-of-their-speaking-amongst-themselves-and-w",
+        "ma223-chapter-xi-of-the-names-of-spirits-and-their-various-imposition",
+        "ma224-chapter-xii-the-cabalists-draw-forth-the-sacred-names-of-angels-from-sacred-writ",
+        "ma225-chapter-xiii-of-finding-out-the-names-of-spirits-and-genii-from-the-disposition-",
+        "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+        "ma227-chapter-xv-of-the-characters-and-seals-of-spirits",
+        "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists",
+        "ma229-chapter-xvii-there-is-another-kind-of-characters-or-marks-of-spirits-which-are-r",
+        "ma230-chapter-xviii-on-the-bonds-of-spirits-and-their-adjurations-and-castings-out",
+        "ma231-chapter-xix-by-what-means-magicians-and-necromancers-call-forth-the-souls-of-the",
+        "ma232-chapter-xx-of-prophetical-dreams"
+      ]
+    },
+    {
+      "id": "book-ii-the-perfection-and-key-of-the-cabala-or-ceremonial-magic",
+      "title": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "book": "Book II",
+      "order": 7,
+      "chapterSlugs": [
+        "ma233-introduction",
+        "ma234-of-magic-pentacles-and-their-composition",
+        "ma235-of-the-consecration-of-all-magical-instruments-and-materials-which-are-used-in-t",
+        "ma236-the-consecration-of-water",
+        "ma237-consecration-of-fire",
+        "ma238-the-consecration-of-oil",
+        "ma239-of-the-benediction-of-lights-lamps-wax-and-c",
+        "ma240-the-consecration-of-places-ground-circle-and-c",
+        "ma241-of-the-invocation-of-evil-spirits-and-the-binding-of-and-constraining-of-them-to",
+        "ma242-an-invocation-of-the-good-spirits",
+        "ma243-the-particular-form-of-the-lamen",
+        "ma244-of-oracles-by-dreams",
+        "ma245-of-the-method-of-raising-evil-or-familiar-spirits"
+      ]
+    },
+    {
+      "id": "book-ii-of-the-particular-composition-of-the-magical-circle",
+      "title": "Of The Particular Composition Of The Magical Circle",
+      "book": "Book II",
+      "order": 8,
+      "chapterSlugs": [
+        "ma246-exorcism-benedictions-and-conjurations",
+        "ma247-considerations-and-conjurations-for-every-day-in-the-week"
+      ]
+    },
+    {
+      "id": "book-ii-the-magic-and-philosophy-of-trithemius-of-spanheim",
+      "title": "The Magic and Philosophy of Trithemius of Spanheim",
+      "book": "Book II",
+      "order": 9,
+      "chapterSlugs": [
+        "ma248-title-page",
+        "ma249-the-translator-s-letter-to-a-friend-of-his-a-young-student-in-these-occult-scien",
+        "ma250-a-caution-to-the-inexperienced-in-this-art-and-a-word-of-advice-to-those-who-wou",
+        "ma251-of-the-making-of-the-crystal-and-the-form-of-preparation-for-a-vision",
+        "ma252-advertisement"
+      ]
+    },
+    {
+      "id": "book-ii-biographia-antiqua",
+      "title": "Biographia Antiqua",
+      "book": "Book II",
+      "order": 10,
+      "chapterSlugs": [
+        "ma253-title-page",
+        "ma254-zoroaster",
+        "ma255-hermes-trismegistus",
+        "ma256-appollonius-of-tyana",
+        "ma257-petrus-de-abano",
+        "ma258-apuleius",
+        "ma259-aristotle",
+        "ma260-artemidorus-of-ephesus",
+        "ma261-babylonians",
+        "ma262-cornelius-agrippa",
+        "ma263-albertus-magnus",
+        "ma264-roger-bacon",
+        "ma265-raymond-lully",
+        "ma266-george-ripley",
+        "ma267-john-and-isaac-hollandus",
+        "ma268-paracelsus",
+        "ma269-john-rudolph-glauber",
+        "ma270-doctor-dee-and-sir-edward-kelly",
+        "ma271-the-conclusion"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ma100",
+      "slug": "ma100-title-page",
+      "title": "Title Page",
+      "book": "Book I",
+      "section": "Front Matter",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma100.htm",
+      "order": 1,
+      "isAppendix": false,
+      "wordCount": 251,
+      "pageMarkers": [],
+      "images": [
+        {
+          "id": "ma100-title-page-image-1",
+          "chapterSlug": "ma100-title-page",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/front.jpg",
+          "localPath": "/assets/plates/front.jpg",
+          "caption": "FRONT"
+        }
+      ],
+      "nextSlug": "ma101-preface"
+    },
+    {
+      "id": "ma101",
+      "slug": "ma101-preface",
+      "title": "Preface",
+      "book": "Book I",
+      "section": "Front Matter",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma101.htm",
+      "order": 2,
+      "isAppendix": false,
+      "wordCount": 1877,
+      "pageMarkers": [
+        "xv",
+        "xiv",
+        "xvi",
+        "xvii"
+      ],
+      "images": [],
+      "previousSlug": "ma100-title-page",
+      "nextSlug": "ma102-table-of-contents"
+    },
+    {
+      "id": "ma102",
+      "slug": "ma102-table-of-contents",
+      "title": "Table of Contents",
+      "book": "Book I",
+      "section": "Front Matter",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma102.htm",
+      "order": 3,
+      "isAppendix": false,
+      "wordCount": 2037,
+      "pageMarkers": [
+        "xx",
+        "xxi",
+        "xxii",
+        "xviii"
+      ],
+      "images": [],
+      "previousSlug": "ma101-preface",
+      "nextSlug": "ma103-directions-for-placing-the-plates"
+    },
+    {
+      "id": "ma103",
+      "slug": "ma103-directions-for-placing-the-plates",
+      "title": "Directions For Placing The Plates",
+      "book": "Book I",
+      "section": "Front Matter",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma103.htm",
+      "order": 4,
+      "isAppendix": false,
+      "wordCount": 175,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma102-table-of-contents",
+      "nextSlug": "ma104-advertisement"
+    },
+    {
+      "id": "ma104",
+      "slug": "ma104-advertisement",
+      "title": "Advertisement",
+      "book": "Book I",
+      "section": "Front Matter",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma104.htm",
+      "order": 5,
+      "isAppendix": false,
+      "wordCount": 158,
+      "pageMarkers": [
+        "1"
+      ],
+      "images": [],
+      "previousSlug": "ma103-directions-for-placing-the-plates",
+      "nextSlug": "ma105-introduction-to-the-study-of-natural-magic"
+    },
+    {
+      "id": "ma105",
+      "slug": "ma105-introduction-to-the-study-of-natural-magic",
+      "title": "Introduction to the Study of Natural Magic",
+      "book": "Book I",
+      "section": "Front Matter",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma105.htm",
+      "order": 6,
+      "isAppendix": false,
+      "wordCount": 3329,
+      "pageMarkers": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "images": [],
+      "previousSlug": "ma104-advertisement",
+      "nextSlug": "ma106-chapter-i-natural-magic-defined"
+    },
+    {
+      "id": "ma106",
+      "slug": "ma106-chapter-i-natural-magic-defined",
+      "title": "Chapter I: Natural Magic Defined...",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma106.htm",
+      "order": 7,
+      "isAppendix": false,
+      "wordCount": 4429,
+      "pageMarkers": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "images": [],
+      "previousSlug": "ma105-introduction-to-the-study-of-natural-magic",
+      "nextSlug": "ma107-chapter-ii-of-the-wonders-of-natural-magic"
+    },
+    {
+      "id": "ma107",
+      "slug": "ma107-chapter-ii-of-the-wonders-of-natural-magic",
+      "title": "Chapter II. Of The Wonders Of Natural Magic...",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma107.htm",
+      "order": 8,
+      "isAppendix": false,
+      "wordCount": 2129,
+      "pageMarkers": [
+        "25",
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "images": [],
+      "previousSlug": "ma106-chapter-i-natural-magic-defined",
+      "nextSlug": "ma108-chapter-iii-of-amulets-charms-and-enchantments"
+    },
+    {
+      "id": "ma108",
+      "slug": "ma108-chapter-iii-of-amulets-charms-and-enchantments",
+      "title": "Chapter III: Of Amulets, Charms, And Enchantments",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma108.htm",
+      "order": 9,
+      "isAppendix": false,
+      "wordCount": 761,
+      "pageMarkers": [
+        "30",
+        "31",
+        "32"
+      ],
+      "images": [],
+      "previousSlug": "ma107-chapter-ii-of-the-wonders-of-natural-magic",
+      "nextSlug": "ma109-chapter-iv-of-unctions-philters-potions-and-c-their-magical-virtues"
+    },
+    {
+      "id": "ma109",
+      "slug": "ma109-chapter-iv-of-unctions-philters-potions-and-c-their-magical-virtues",
+      "title": "Chapter IV: Of Unctions, Philters, Potions, &c.--Their Magical Virtues",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma109.htm",
+      "order": 10,
+      "isAppendix": false,
+      "wordCount": 662,
+      "pageMarkers": [
+        "33"
+      ],
+      "images": [],
+      "previousSlug": "ma108-chapter-iii-of-amulets-charms-and-enchantments",
+      "nextSlug": "ma110-chapter-v-of-magical-suspensions-and-alligations"
+    },
+    {
+      "id": "ma110",
+      "slug": "ma110-chapter-v-of-magical-suspensions-and-alligations",
+      "title": "Chapter V: Of Magical Suspensions And Alligations...",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma110.htm",
+      "order": 11,
+      "isAppendix": false,
+      "wordCount": 550,
+      "pageMarkers": [
+        "34",
+        "35"
+      ],
+      "images": [],
+      "previousSlug": "ma109-chapter-iv-of-unctions-philters-potions-and-c-their-magical-virtues",
+      "nextSlug": "ma111-chapter-vi-of-antipathies"
+    },
+    {
+      "id": "ma111",
+      "slug": "ma111-chapter-vi-of-antipathies",
+      "title": "Chapter VI: Of Antipathies",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma111.htm",
+      "order": 12,
+      "isAppendix": false,
+      "wordCount": 913,
+      "pageMarkers": [
+        "36",
+        "37"
+      ],
+      "images": [],
+      "previousSlug": "ma110-chapter-v-of-magical-suspensions-and-alligations",
+      "nextSlug": "ma112-chapter-vii-of-the-occult-virtues-of-things"
+    },
+    {
+      "id": "ma112",
+      "slug": "ma112-chapter-vii-of-the-occult-virtues-of-things",
+      "title": "Chapter VII: Of The Occult Virtues Of Things...",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma112.htm",
+      "order": 13,
+      "isAppendix": false,
+      "wordCount": 590,
+      "pageMarkers": [
+        "38"
+      ],
+      "images": [],
+      "previousSlug": "ma111-chapter-vi-of-antipathies",
+      "nextSlug": "ma113-chapter-viii-of-the-wonderful-virtues-of-some-kind-of-precious-stones"
+    },
+    {
+      "id": "ma113",
+      "slug": "ma113-chapter-viii-of-the-wonderful-virtues-of-some-kind-of-precious-stones",
+      "title": "Chapter VIII: Of The Wonderful Virtues Of Some Kind Of Precious Stones",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma113.htm",
+      "order": 14,
+      "isAppendix": false,
+      "wordCount": 693,
+      "pageMarkers": [
+        "39",
+        "40"
+      ],
+      "images": [],
+      "previousSlug": "ma112-chapter-vii-of-the-occult-virtues-of-things",
+      "nextSlug": "ma114-chapter-ix-of-the-mixtures-of-natural-things-one-with-another-and-the-producing-"
+    },
+    {
+      "id": "ma114",
+      "slug": "ma114-chapter-ix-of-the-mixtures-of-natural-things-one-with-another-and-the-producing-",
+      "title": "Chapter IX: Of The Mixtures Of Natural Things One With Another, And The Producing Of Monstrous Animals...",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma114.htm",
+      "order": 15,
+      "isAppendix": false,
+      "wordCount": 868,
+      "pageMarkers": [
+        "41",
+        "42",
+        "43"
+      ],
+      "images": [],
+      "previousSlug": "ma113-chapter-viii-of-the-wonderful-virtues-of-some-kind-of-precious-stones",
+      "nextSlug": "ma115-chapter-x-of-the-art-of-fascination-binding-sorceries-magical-confections-lights"
+    },
+    {
+      "id": "ma115",
+      "slug": "ma115-chapter-x-of-the-art-of-fascination-binding-sorceries-magical-confections-lights",
+      "title": "Chapter X: Of The Art Of Fascination, Binding, Sorceries, Magical Confections, Lights, Candles, Lamps...",
+      "book": "Book I",
+      "section": "The First Principles of Natural Magic: Book the First",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma115.htm",
+      "order": 16,
+      "isAppendix": false,
+      "wordCount": 2969,
+      "pageMarkers": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+      ],
+      "images": [],
+      "previousSlug": "ma114-chapter-ix-of-the-mixtures-of-natural-things-one-with-another-and-the-producing-",
+      "nextSlug": "ma116-title-page"
+    },
+    {
+      "id": "ma116",
+      "slug": "ma116-title-page",
+      "title": "Title Page",
+      "book": "Book I",
+      "section": "The Jewel of Alchymy",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma116.htm",
+      "order": 17,
+      "isAppendix": false,
+      "wordCount": 71,
+      "pageMarkers": [
+        "51"
+      ],
+      "images": [],
+      "previousSlug": "ma115-chapter-x-of-the-art-of-fascination-binding-sorceries-magical-confections-lights",
+      "nextSlug": "ma117-epistle-to-museus"
+    },
+    {
+      "id": "ma117",
+      "slug": "ma117-epistle-to-museus",
+      "title": "Epistle To Museus",
+      "book": "Book I",
+      "section": "The Jewel of Alchymy",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma117.htm",
+      "order": 18,
+      "isAppendix": false,
+      "wordCount": 705,
+      "pageMarkers": [
+        "53",
+        "54"
+      ],
+      "images": [],
+      "previousSlug": "ma116-title-page",
+      "nextSlug": "ma118-to-the-reader"
+    },
+    {
+      "id": "ma118",
+      "slug": "ma118-to-the-reader",
+      "title": "To The Reader",
+      "book": "Book I",
+      "section": "The Jewel of Alchymy",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma118.htm",
+      "order": 19,
+      "isAppendix": false,
+      "wordCount": 140,
+      "pageMarkers": [
+        "55"
+      ],
+      "images": [],
+      "previousSlug": "ma117-epistle-to-museus",
+      "nextSlug": "ma119-part-the-first-of-alchymy-its-divine-origin"
+    },
+    {
+      "id": "ma119",
+      "slug": "ma119-part-the-first-of-alchymy-its-divine-origin",
+      "title": "Part the First: Of Alchymy, Its Divine Origin...",
+      "book": "Book I",
+      "section": "The Jewel of Alchymy",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma119.htm",
+      "order": 20,
+      "isAppendix": false,
+      "wordCount": 3115,
+      "pageMarkers": [
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63"
+      ],
+      "images": [],
+      "previousSlug": "ma118-to-the-reader",
+      "nextSlug": "ma120-of-the-preparation-of-a-man-to-qualify-him-for-the-search-of-this-treasure"
+    },
+    {
+      "id": "ma120",
+      "slug": "ma120-of-the-preparation-of-a-man-to-qualify-him-for-the-search-of-this-treasure",
+      "title": "Of The Preparation Of A Man To Qualify Him For The Search Of This Treasure...",
+      "book": "Book I",
+      "section": "The Jewel of Alchymy",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma120.htm",
+      "order": 21,
+      "isAppendix": false,
+      "wordCount": 1541,
+      "pageMarkers": [
+        "65",
+        "66",
+        "67",
+        "68"
+      ],
+      "images": [],
+      "previousSlug": "ma119-part-the-first-of-alchymy-its-divine-origin",
+      "nextSlug": "ma121-part-ii-of-the-manner-of-extracting-the-first-matter-of-the-philosophers-stone"
+    },
+    {
+      "id": "ma121",
+      "slug": "ma121-part-ii-of-the-manner-of-extracting-the-first-matter-of-the-philosophers-stone",
+      "title": "Part II: Of The Manner Of Extracting The First Matter Of The Philosophers' Stone",
+      "book": "Book I",
+      "section": "The Jewel of Alchymy",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma121.htm",
+      "order": 22,
+      "isAppendix": false,
+      "wordCount": 674,
+      "pageMarkers": [
+        "69",
+        "70"
+      ],
+      "images": [],
+      "previousSlug": "ma120-of-the-preparation-of-a-man-to-qualify-him-for-the-search-of-this-treasure",
+      "nextSlug": "ma122-title-page"
+    },
+    {
+      "id": "ma122",
+      "slug": "ma122-title-page",
+      "title": "Title Page",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma122.htm",
+      "order": 23,
+      "isAppendix": false,
+      "wordCount": 68,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma121-part-ii-of-the-manner-of-extracting-the-first-matter-of-the-philosophers-stone",
+      "nextSlug": "ma123-chapter-i-of-the-four-elements-and-their-natural-qualities"
+    },
+    {
+      "id": "ma123",
+      "slug": "ma123-chapter-i-of-the-four-elements-and-their-natural-qualities",
+      "title": "Chapter I: Of The Four Elements And Their Natural Qualities",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma123.htm",
+      "order": 24,
+      "isAppendix": false,
+      "wordCount": 929,
+      "pageMarkers": [
+        "73",
+        "74",
+        "75"
+      ],
+      "images": [],
+      "previousSlug": "ma122-title-page",
+      "nextSlug": "ma124-chapter-ii-of-the-properties-and-wonderful-nature-of-fire-and-earth"
+    },
+    {
+      "id": "ma124",
+      "slug": "ma124-chapter-ii-of-the-properties-and-wonderful-nature-of-fire-and-earth",
+      "title": "Chapter II: Of The Properties And Wonderful Nature Of Fire And Earth",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma124.htm",
+      "order": 25,
+      "isAppendix": false,
+      "wordCount": 799,
+      "pageMarkers": [
+        "76",
+        "77"
+      ],
+      "images": [],
+      "previousSlug": "ma123-chapter-i-of-the-four-elements-and-their-natural-qualities",
+      "nextSlug": "ma125-chapter-iii-of-the-water-and-air"
+    },
+    {
+      "id": "ma125",
+      "slug": "ma125-chapter-iii-of-the-water-and-air",
+      "title": "Chapter III: Of The Water And Air",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma125.htm",
+      "order": 26,
+      "isAppendix": false,
+      "wordCount": 1766,
+      "pageMarkers": [
+        "78",
+        "79",
+        "80",
+        "81"
+      ],
+      "images": [],
+      "previousSlug": "ma124-chapter-ii-of-the-properties-and-wonderful-nature-of-fire-and-earth",
+      "nextSlug": "ma126-chapter-iv-of-compound-or-mixed-bodies"
+    },
+    {
+      "id": "ma126",
+      "slug": "ma126-chapter-iv-of-compound-or-mixed-bodies",
+      "title": "Chapter IV: Of Compound, Or Mixed Bodies...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma126.htm",
+      "order": 27,
+      "isAppendix": false,
+      "wordCount": 614,
+      "pageMarkers": [
+        "82",
+        "83"
+      ],
+      "images": [],
+      "previousSlug": "ma125-chapter-iii-of-the-water-and-air",
+      "nextSlug": "ma127-chapter-v-that-the-elements-are-in-the-heavens-in-the-stars-in-devils-angels-int"
+    },
+    {
+      "id": "ma127",
+      "slug": "ma127-chapter-v-that-the-elements-are-in-the-heavens-in-the-stars-in-devils-angels-int",
+      "title": "Chapter V: That The Elements Are In The Heavens, In The Stars, In Devils, Angels, Intelligences, And, Lastly, In God Himself",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma127.htm",
+      "order": 28,
+      "isAppendix": false,
+      "wordCount": 676,
+      "pageMarkers": [
+        "81",
+        "85"
+      ],
+      "images": [],
+      "previousSlug": "ma126-chapter-iv-of-compound-or-mixed-bodies",
+      "nextSlug": "ma128-chapter-vi-that-the-wisdom-of-god-works-by-the-medium-of-second-causes"
+    },
+    {
+      "id": "ma128",
+      "slug": "ma128-chapter-vi-that-the-wisdom-of-god-works-by-the-medium-of-second-causes",
+      "title": "Chapter VI: That The Wisdom Of God Works By The Medium Of Second Causes...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma128.htm",
+      "order": 29,
+      "isAppendix": false,
+      "wordCount": 620,
+      "pageMarkers": [
+        "86",
+        "87"
+      ],
+      "images": [],
+      "previousSlug": "ma127-chapter-v-that-the-elements-are-in-the-heavens-in-the-stars-in-devils-angels-int",
+      "nextSlug": "ma129-chapter-vii-of-the-spirit-of-the-world"
+    },
+    {
+      "id": "ma129",
+      "slug": "ma129-chapter-vii-of-the-spirit-of-the-world",
+      "title": "Chapter VII: Of The Spirit Of The World",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma129.htm",
+      "order": 30,
+      "isAppendix": false,
+      "wordCount": 426,
+      "pageMarkers": [
+        "88"
+      ],
+      "images": [],
+      "previousSlug": "ma128-chapter-vi-that-the-wisdom-of-god-works-by-the-medium-of-second-causes",
+      "nextSlug": "ma130-chapter-viii-of-the-seals-and-characters-impressed-by-celestials-upon-natural-th"
+    },
+    {
+      "id": "ma130",
+      "slug": "ma130-chapter-viii-of-the-seals-and-characters-impressed-by-celestials-upon-natural-th",
+      "title": "Chapter VIII: Of The Seals And Characters Impressed By Celestials Upon Natural Things",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma130.htm",
+      "order": 31,
+      "isAppendix": false,
+      "wordCount": 379,
+      "pageMarkers": [
+        "89"
+      ],
+      "images": [],
+      "previousSlug": "ma129-chapter-vii-of-the-spirit-of-the-world",
+      "nextSlug": "ma131-chapter-ix-treating-of-the-virtue-and-efficacy-of-perfumes"
+    },
+    {
+      "id": "ma131",
+      "slug": "ma131-chapter-ix-treating-of-the-virtue-and-efficacy-of-perfumes",
+      "title": "Chapter IX: Treating Of The Virtue And Efficacy Of Perfumes...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma131.htm",
+      "order": 32,
+      "isAppendix": false,
+      "wordCount": 1002,
+      "pageMarkers": [
+        "90",
+        "91"
+      ],
+      "images": [],
+      "previousSlug": "ma130-chapter-viii-of-the-seals-and-characters-impressed-by-celestials-upon-natural-th",
+      "nextSlug": "ma132-chapter-x-of-the-composition-of-some-perfumes-appropriated-to-the-seven-planets"
+    },
+    {
+      "id": "ma132",
+      "slug": "ma132-chapter-x-of-the-composition-of-some-perfumes-appropriated-to-the-seven-planets",
+      "title": "Chapter X: Of The Composition Of Some Perfumes Appropriated To The Seven Planets",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma132.htm",
+      "order": 33,
+      "isAppendix": false,
+      "wordCount": 702,
+      "pageMarkers": [
+        "92",
+        "93",
+        "94"
+      ],
+      "images": [],
+      "previousSlug": "ma131-chapter-ix-treating-of-the-virtue-and-efficacy-of-perfumes",
+      "nextSlug": "ma133-chapter-xi-of-the-composition-and-magic-virtue-of-rings"
+    },
+    {
+      "id": "ma133",
+      "slug": "ma133-chapter-xi-of-the-composition-and-magic-virtue-of-rings",
+      "title": "Chapter XI: Of The Composition And Magic Virtue Of Rings",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma133.htm",
+      "order": 34,
+      "isAppendix": false,
+      "wordCount": 731,
+      "pageMarkers": [
+        "95",
+        "96"
+      ],
+      "images": [],
+      "previousSlug": "ma132-chapter-x-of-the-composition-of-some-perfumes-appropriated-to-the-seven-planets",
+      "nextSlug": "ma134-chapter-xii-that-the-passions-of-the-mind-are-assisted-by-celestials"
+    },
+    {
+      "id": "ma134",
+      "slug": "ma134-chapter-xii-that-the-passions-of-the-mind-are-assisted-by-celestials",
+      "title": "Chapter XII: That The Passions Of The Mind Are Assisted By Celestials...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma134.htm",
+      "order": 35,
+      "isAppendix": false,
+      "wordCount": 513,
+      "pageMarkers": [
+        "97"
+      ],
+      "images": [],
+      "previousSlug": "ma133-chapter-xi-of-the-composition-and-magic-virtue-of-rings",
+      "nextSlug": "ma135-chapter-xiii-how-man-s-mind-may-be-joined-with-the-mind-of-intelligences-and-cel"
+    },
+    {
+      "id": "ma135",
+      "slug": "ma135-chapter-xiii-how-man-s-mind-may-be-joined-with-the-mind-of-intelligences-and-cel",
+      "title": "Chapter XIII: How Man's Mind May Be Joined With The Mind Of Intelligences And Celestials...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma135.htm",
+      "order": 36,
+      "isAppendix": false,
+      "wordCount": 438,
+      "pageMarkers": [
+        "98"
+      ],
+      "images": [],
+      "previousSlug": "ma134-chapter-xii-that-the-passions-of-the-mind-are-assisted-by-celestials",
+      "nextSlug": "ma136-chapter-xiv-shewing-the-necessity-of-mathematical-knowledge"
+    },
+    {
+      "id": "ma136",
+      "slug": "ma136-chapter-xiv-shewing-the-necessity-of-mathematical-knowledge",
+      "title": "Chapter XIV: Shewing The Necessity Of Mathematical Knowledge...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma136.htm",
+      "order": 37,
+      "isAppendix": false,
+      "wordCount": 1125,
+      "pageMarkers": [
+        "99",
+        "100",
+        "101"
+      ],
+      "images": [],
+      "previousSlug": "ma135-chapter-xiii-how-man-s-mind-may-be-joined-with-the-mind-of-intelligences-and-cel",
+      "nextSlug": "ma137-chapter-xv-the-great-virtues-of-numbers-as-well-in-natural-things-as-in-supernat"
+    },
+    {
+      "id": "ma137",
+      "slug": "ma137-chapter-xv-the-great-virtues-of-numbers-as-well-in-natural-things-as-in-supernat",
+      "title": "Chapter XV: The Great Virtues Of Numbers, As Well In Natural Things As In Supernatural",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma137.htm",
+      "order": 38,
+      "isAppendix": false,
+      "wordCount": 342,
+      "pageMarkers": [
+        "102"
+      ],
+      "images": [],
+      "previousSlug": "ma136-chapter-xiv-shewing-the-necessity-of-mathematical-knowledge",
+      "nextSlug": "ma138-chapter-xvi-of-the-scale-of-unity"
+    },
+    {
+      "id": "ma138",
+      "slug": "ma138-chapter-xvi-of-the-scale-of-unity",
+      "title": "Chapter XVI: Of The Scale Of Unity",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma138.htm",
+      "order": 39,
+      "isAppendix": false,
+      "wordCount": 531,
+      "pageMarkers": [
+        "103",
+        "104"
+      ],
+      "images": [],
+      "previousSlug": "ma137-chapter-xv-the-great-virtues-of-numbers-as-well-in-natural-things-as-in-supernat",
+      "nextSlug": "ma139-chapter-xvii-of-the-number-two-and-scale"
+    },
+    {
+      "id": "ma139",
+      "slug": "ma139-chapter-xvii-of-the-number-two-and-scale",
+      "title": "Chapter XVII: Of The Number Two, And Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma139.htm",
+      "order": 40,
+      "isAppendix": false,
+      "wordCount": 603,
+      "pageMarkers": [
+        "105",
+        "106"
+      ],
+      "images": [],
+      "previousSlug": "ma138-chapter-xvi-of-the-scale-of-unity",
+      "nextSlug": "ma140-chapter-xviii-of-the-number-three-and-scale"
+    },
+    {
+      "id": "ma140",
+      "slug": "ma140-chapter-xviii-of-the-number-three-and-scale",
+      "title": "Chapter XVIII: Of The Number Three And Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma140.htm",
+      "order": 41,
+      "isAppendix": false,
+      "wordCount": 595,
+      "pageMarkers": [
+        "107",
+        "108"
+      ],
+      "images": [],
+      "previousSlug": "ma139-chapter-xvii-of-the-number-two-and-scale",
+      "nextSlug": "ma141-chapter-xix-of-the-number-four-and-scale"
+    },
+    {
+      "id": "ma141",
+      "slug": "ma141-chapter-xix-of-the-number-four-and-scale",
+      "title": "Chapter XIX: Of The Number Four And Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma141.htm",
+      "order": 42,
+      "isAppendix": false,
+      "wordCount": 1252,
+      "pageMarkers": [
+        "109",
+        "110",
+        "111",
+        "112"
+      ],
+      "images": [],
+      "previousSlug": "ma140-chapter-xviii-of-the-number-three-and-scale",
+      "nextSlug": "ma142-chapter-xx-of-the-number-five-and-its-scale"
+    },
+    {
+      "id": "ma142",
+      "slug": "ma142-chapter-xx-of-the-number-five-and-its-scale",
+      "title": "Chapter XX: Of The Number Five, And Its Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma142.htm",
+      "order": 43,
+      "isAppendix": false,
+      "wordCount": 534,
+      "pageMarkers": [
+        "114",
+        "115"
+      ],
+      "images": [],
+      "previousSlug": "ma141-chapter-xix-of-the-number-four-and-scale",
+      "nextSlug": "ma143-chapter-xii-of-the-number-six-and-the-scale"
+    },
+    {
+      "id": "ma143",
+      "slug": "ma143-chapter-xii-of-the-number-six-and-the-scale",
+      "title": "Chapter XII: Of The Number Six, And The Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma143.htm",
+      "order": 44,
+      "isAppendix": false,
+      "wordCount": 533,
+      "pageMarkers": [
+        "116",
+        "117"
+      ],
+      "images": [],
+      "previousSlug": "ma142-chapter-xx-of-the-number-five-and-its-scale",
+      "nextSlug": "ma144-chapter-xxii-of-the-number-seven-and-the-scale"
+    },
+    {
+      "id": "ma144",
+      "slug": "ma144-chapter-xxii-of-the-number-seven-and-the-scale",
+      "title": "Chapter XXII: Of The Number Seven, And The Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma144.htm",
+      "order": 45,
+      "isAppendix": false,
+      "wordCount": 3444,
+      "pageMarkers": [
+        "118",
+        "119",
+        "120",
+        "121",
+        "122",
+        "123",
+        "124",
+        "125",
+        "126"
+      ],
+      "images": [],
+      "previousSlug": "ma143-chapter-xii-of-the-number-six-and-the-scale",
+      "nextSlug": "ma145-chapter-xxiii-of-the-number-eight-and-the-scale"
+    },
+    {
+      "id": "ma145",
+      "slug": "ma145-chapter-xxiii-of-the-number-eight-and-the-scale",
+      "title": "Chapter XXIII: Of The Number Eight, And The Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma145.htm",
+      "order": 46,
+      "isAppendix": false,
+      "wordCount": 410,
+      "pageMarkers": [
+        "128",
+        "129"
+      ],
+      "images": [],
+      "previousSlug": "ma144-chapter-xxii-of-the-number-seven-and-the-scale",
+      "nextSlug": "ma146-chapter-xxiv-of-the-number-nine-and-the-scale"
+    },
+    {
+      "id": "ma146",
+      "slug": "ma146-chapter-xxiv-of-the-number-nine-and-the-scale",
+      "title": "Chapter XXIV: Of The Number Nine, And The Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma146.htm",
+      "order": 47,
+      "isAppendix": false,
+      "wordCount": 296,
+      "pageMarkers": [
+        "130",
+        "131"
+      ],
+      "images": [],
+      "previousSlug": "ma145-chapter-xxiii-of-the-number-eight-and-the-scale",
+      "nextSlug": "ma147-chapter-xxv-of-the-number-ten-and-the-scale"
+    },
+    {
+      "id": "ma147",
+      "slug": "ma147-chapter-xxv-of-the-number-ten-and-the-scale",
+      "title": "Chapter XXV: Of The Number Ten, And The Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma147.htm",
+      "order": 48,
+      "isAppendix": false,
+      "wordCount": 976,
+      "pageMarkers": [
+        "132",
+        "133",
+        "134"
+      ],
+      "images": [
+        {
+          "id": "ma147-chapter-xxv-of-the-number-ten-and-the-scale-image-1",
+          "chapterSlug": "ma147-chapter-xxv-of-the-number-ten-and-the-scale",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/13300.jpg",
+          "localPath": "/assets/plates/13300.jpg",
+          "caption": "13300"
+        }
+      ],
+      "previousSlug": "ma146-chapter-xxiv-of-the-number-nine-and-the-scale",
+      "nextSlug": "ma148-chapter-xxvi-of-the-numbers-eleven-and-twelve-with-the-cabalistical-scale"
+    },
+    {
+      "id": "ma148",
+      "slug": "ma148-chapter-xxvi-of-the-numbers-eleven-and-twelve-with-the-cabalistical-scale",
+      "title": "Chapter XXVI: Of The Numbers Eleven And Twelve, With The Cabalistical Scale",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma148.htm",
+      "order": 49,
+      "isAppendix": false,
+      "wordCount": 1069,
+      "pageMarkers": [
+        "136",
+        "137",
+        "138"
+      ],
+      "images": [],
+      "previousSlug": "ma147-chapter-xxv-of-the-number-ten-and-the-scale",
+      "nextSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici"
+    },
+    {
+      "id": "ma149",
+      "slug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+      "title": "Chapter XVII: Of The Notes Of The Hebrews And Chaldeans, And Other Notes Of Magicians",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma149.htm",
+      "order": 50,
+      "isAppendix": false,
+      "wordCount": 444,
+      "pageMarkers": [
+        "140",
+        "141",
+        "142"
+      ],
+      "images": [
+        {
+          "id": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici-image-1",
+          "chapterSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/14100.jpg",
+          "localPath": "/assets/plates/14100.jpg",
+          "caption": "14100"
+        },
+        {
+          "id": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici-image-2",
+          "chapterSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/14101.jpg",
+          "localPath": "/assets/plates/14101.jpg",
+          "caption": "14101"
+        },
+        {
+          "id": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici-image-3",
+          "chapterSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/14102.jpg",
+          "localPath": "/assets/plates/14102.jpg",
+          "caption": "14102"
+        },
+        {
+          "id": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici-image-4",
+          "chapterSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/14200.jpg",
+          "localPath": "/assets/plates/14200.jpg",
+          "caption": "14200"
+        }
+      ],
+      "previousSlug": "ma148-chapter-xxvi-of-the-numbers-eleven-and-twelve-with-the-cabalistical-scale",
+      "nextSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets"
+    },
+    {
+      "id": "ma150",
+      "slug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+      "title": "Chapter XXVIII: The Magic Tables Of The Planets...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma150.htm",
+      "order": 51,
+      "isAppendix": false,
+      "wordCount": 1825,
+      "pageMarkers": [
+        "143",
+        "144",
+        "145",
+        "146",
+        "147"
+      ],
+      "images": [
+        {
+          "id": "ma150-chapter-xxviii-the-magic-tables-of-the-planets-image-1",
+          "chapterSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl01.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl01.jpg",
+          "caption": "PL01"
+        },
+        {
+          "id": "ma150-chapter-xxviii-the-magic-tables-of-the-planets-image-2",
+          "chapterSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl02.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl02.jpg",
+          "caption": "PL02"
+        },
+        {
+          "id": "ma150-chapter-xxviii-the-magic-tables-of-the-planets-image-3",
+          "chapterSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl03.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl03.jpg",
+          "caption": "PL03"
+        },
+        {
+          "id": "ma150-chapter-xxviii-the-magic-tables-of-the-planets-image-4",
+          "chapterSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl04.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl04.jpg",
+          "caption": "PL04"
+        }
+      ],
+      "previousSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+      "nextSlug": "ma151-chapter-xxix-of-the-observation-of-the-celestials-necessary-in-every-magical-wor"
+    },
+    {
+      "id": "ma151",
+      "slug": "ma151-chapter-xxix-of-the-observation-of-the-celestials-necessary-in-every-magical-wor",
+      "title": "Chapter XXIX: Of The Observation Of The Celestials Necessary In Every Magical Work",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma151.htm",
+      "order": 52,
+      "isAppendix": false,
+      "wordCount": 446,
+      "pageMarkers": [
+        "148",
+        "149"
+      ],
+      "images": [],
+      "previousSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+      "nextSlug": "ma152-chapter-xxx-when-the-planets-are-of-most-powerful-influence"
+    },
+    {
+      "id": "ma152",
+      "slug": "ma152-chapter-xxx-when-the-planets-are-of-most-powerful-influence",
+      "title": "Chapter XXX: When The Planets Are Of Most Powerful Influence",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma152.htm",
+      "order": 53,
+      "isAppendix": false,
+      "wordCount": 305,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma151-chapter-xxix-of-the-observation-of-the-celestials-necessary-in-every-magical-wor",
+      "nextSlug": "ma153-chapter-xxxi-observations-on-the-fixed-stars-and-their-names-and-natures"
+    },
+    {
+      "id": "ma153",
+      "slug": "ma153-chapter-xxxi-observations-on-the-fixed-stars-and-their-names-and-natures",
+      "title": "Chapter XXXI: Observations On The Fixed Stars, And Their Names And Natures",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma153.htm",
+      "order": 54,
+      "isAppendix": false,
+      "wordCount": 762,
+      "pageMarkers": [
+        "150",
+        "151"
+      ],
+      "images": [],
+      "previousSlug": "ma152-chapter-xxx-when-the-planets-are-of-most-powerful-influence",
+      "nextSlug": "ma154-chapter-xxxii-of-the-sun-and-moon-and-their-magical-considerations"
+    },
+    {
+      "id": "ma154",
+      "slug": "ma154-chapter-xxxii-of-the-sun-and-moon-and-their-magical-considerations",
+      "title": "Chapter XXXII: Of The Sun And Moon, And Their Magical Considerations.",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma154.htm",
+      "order": 55,
+      "isAppendix": false,
+      "wordCount": 626,
+      "pageMarkers": [
+        "152",
+        "153"
+      ],
+      "images": [],
+      "previousSlug": "ma153-chapter-xxxi-observations-on-the-fixed-stars-and-their-names-and-natures",
+      "nextSlug": "ma155-chapter-xxxiii-of-the-twenty-eight-mansions-of-the-moon-and-their-virtues"
+    },
+    {
+      "id": "ma155",
+      "slug": "ma155-chapter-xxxiii-of-the-twenty-eight-mansions-of-the-moon-and-their-virtues",
+      "title": "Chapter XXXIII: Of The Twenty-Eight Mansions Of The Moon, And Their Virtues",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma155.htm",
+      "order": 56,
+      "isAppendix": false,
+      "wordCount": 1393,
+      "pageMarkers": [
+        "151",
+        "155",
+        "156"
+      ],
+      "images": [],
+      "previousSlug": "ma154-chapter-xxxii-of-the-sun-and-moon-and-their-magical-considerations",
+      "nextSlug": "ma156-chapter-xxxiv-how-some-artificial-things-as-images-seals-and-such-like-may-obtai"
+    },
+    {
+      "id": "ma156",
+      "slug": "ma156-chapter-xxxiv-how-some-artificial-things-as-images-seals-and-such-like-may-obtai",
+      "title": "Chapter XXXIV: How Some Artificial Things (As Images, Seals, And Such Like) May Obtain Some Virtue From The Celestial Bodies.",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma156.htm",
+      "order": 57,
+      "isAppendix": false,
+      "wordCount": 263,
+      "pageMarkers": [
+        "157"
+      ],
+      "images": [],
+      "previousSlug": "ma155-chapter-xxxiii-of-the-twenty-eight-mansions-of-the-moon-and-their-virtues",
+      "nextSlug": "ma157-chapter-xxxv-of-the-images-of-the-zodiac"
+    },
+    {
+      "id": "ma157",
+      "slug": "ma157-chapter-xxxv-of-the-images-of-the-zodiac",
+      "title": "Chapter XXXV: Of The Images Of The Zodiac...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma157.htm",
+      "order": 58,
+      "isAppendix": false,
+      "wordCount": 520,
+      "pageMarkers": [
+        "158",
+        "159"
+      ],
+      "images": [
+        {
+          "id": "ma157-chapter-xxxv-of-the-images-of-the-zodiac-image-1",
+          "chapterSlug": "ma157-chapter-xxxv-of-the-images-of-the-zodiac",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl05.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl05.jpg",
+          "caption": "PL05"
+        }
+      ],
+      "previousSlug": "ma156-chapter-xxxiv-how-some-artificial-things-as-images-seals-and-such-like-may-obtai",
+      "nextSlug": "ma158-chapter-xxxvi-of-the-images-of-saturn"
+    },
+    {
+      "id": "ma158",
+      "slug": "ma158-chapter-xxxvi-of-the-images-of-saturn",
+      "title": "Chapter XXXVI: Of The Images Of Saturn",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma158.htm",
+      "order": 59,
+      "isAppendix": false,
+      "wordCount": 503,
+      "pageMarkers": [
+        "160"
+      ],
+      "images": [],
+      "previousSlug": "ma157-chapter-xxxv-of-the-images-of-the-zodiac",
+      "nextSlug": "ma159-chapter-xxxvii-of-the-images-of-jupiter"
+    },
+    {
+      "id": "ma159",
+      "slug": "ma159-chapter-xxxvii-of-the-images-of-jupiter",
+      "title": "Chapter XXXVII: Of The Images Of Jupiter.",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma159.htm",
+      "order": 60,
+      "isAppendix": false,
+      "wordCount": 196,
+      "pageMarkers": [
+        "161"
+      ],
+      "images": [],
+      "previousSlug": "ma158-chapter-xxxvi-of-the-images-of-saturn",
+      "nextSlug": "ma160-chapter-xxxviii-of-the-images-of-mars"
+    },
+    {
+      "id": "ma160",
+      "slug": "ma160-chapter-xxxviii-of-the-images-of-mars",
+      "title": "Chapter XXXVIII: Of The Images Of Mars",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma160.htm",
+      "order": 61,
+      "isAppendix": false,
+      "wordCount": 175,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma159-chapter-xxxvii-of-the-images-of-jupiter",
+      "nextSlug": "ma161-chapter-xxxix-of-the-images-of-the-sun"
+    },
+    {
+      "id": "ma161",
+      "slug": "ma161-chapter-xxxix-of-the-images-of-the-sun",
+      "title": "Chapter XXXIX: Of The Images Of The Sun",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma161.htm",
+      "order": 62,
+      "isAppendix": false,
+      "wordCount": 244,
+      "pageMarkers": [
+        "162"
+      ],
+      "images": [],
+      "previousSlug": "ma160-chapter-xxxviii-of-the-images-of-mars",
+      "nextSlug": "ma162-chapter-xl-of-the-images-of-venus"
+    },
+    {
+      "id": "ma162",
+      "slug": "ma162-chapter-xl-of-the-images-of-venus",
+      "title": "Chapter XL: Of The Images Of Venus",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma162.htm",
+      "order": 63,
+      "isAppendix": false,
+      "wordCount": 226,
+      "pageMarkers": [
+        "163"
+      ],
+      "images": [],
+      "previousSlug": "ma161-chapter-xxxix-of-the-images-of-the-sun",
+      "nextSlug": "ma163-chapter-xli-of-the-images-of-mercury"
+    },
+    {
+      "id": "ma163",
+      "slug": "ma163-chapter-xli-of-the-images-of-mercury",
+      "title": "Chapter XLI: Of The Images Of Mercury",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma163.htm",
+      "order": 64,
+      "isAppendix": false,
+      "wordCount": 304,
+      "pageMarkers": [
+        "164"
+      ],
+      "images": [],
+      "previousSlug": "ma162-chapter-xl-of-the-images-of-venus",
+      "nextSlug": "ma164-chapter-xliii-of-the-images-of-the-head-and-tail-of-the-dragon-of-the-moon"
+    },
+    {
+      "id": "ma164",
+      "slug": "ma164-chapter-xliii-of-the-images-of-the-head-and-tail-of-the-dragon-of-the-moon",
+      "title": "Chapter XLIII: Of The Images Of The Head And Tail Of The Dragon Of The Moon",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma164.htm",
+      "order": 65,
+      "isAppendix": false,
+      "wordCount": 227,
+      "pageMarkers": [
+        "165"
+      ],
+      "images": [
+        {
+          "id": "ma164-chapter-xliii-of-the-images-of-the-head-and-tail-of-the-dragon-of-the-moon-image-1",
+          "chapterSlug": "ma164-chapter-xliii-of-the-images-of-the-head-and-tail-of-the-dragon-of-the-moon",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/16500.jpg",
+          "localPath": "/assets/plates/16500.jpg",
+          "caption": "16500"
+        }
+      ],
+      "previousSlug": "ma163-chapter-xli-of-the-images-of-mercury",
+      "nextSlug": "ma165-chapter-xliv-of-the-images-of-the-mansions-of-the-moon"
+    },
+    {
+      "id": "ma165",
+      "slug": "ma165-chapter-xliv-of-the-images-of-the-mansions-of-the-moon",
+      "title": "Chapter XLIV: Of The Images Of The Mansions Of The Moon",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma165.htm",
+      "order": 66,
+      "isAppendix": false,
+      "wordCount": 1223,
+      "pageMarkers": [
+        "166",
+        "167",
+        "168"
+      ],
+      "images": [],
+      "previousSlug": "ma164-chapter-xliii-of-the-images-of-the-head-and-tail-of-the-dragon-of-the-moon",
+      "nextSlug": "ma166-chapter-xlv-that-human-imprecations-naturally-impress-their-powers-upon-external"
+    },
+    {
+      "id": "ma166",
+      "slug": "ma166-chapter-xlv-that-human-imprecations-naturally-impress-their-powers-upon-external",
+      "title": "Chapter XLV: That Human Imprecations Naturally Impress Their Powers Upon External Things...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma166.htm",
+      "order": 67,
+      "isAppendix": false,
+      "wordCount": 1346,
+      "pageMarkers": [
+        "169",
+        "170",
+        "171"
+      ],
+      "images": [],
+      "previousSlug": "ma165-chapter-xliv-of-the-images-of-the-mansions-of-the-moon",
+      "nextSlug": "ma167-chapter-xlvi-conclusion"
+    },
+    {
+      "id": "ma167",
+      "slug": "ma167-chapter-xlvi-conclusion",
+      "title": "Chapter XLVI: Conclusion...",
+      "book": "Book I",
+      "section": "The Celestial Intelligencer",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma167.htm",
+      "order": 68,
+      "isAppendix": false,
+      "wordCount": 1548,
+      "pageMarkers": [
+        "172",
+        "173",
+        "174",
+        "175"
+      ],
+      "images": [
+        {
+          "id": "ma167-chapter-xlvi-conclusion-image-1",
+          "chapterSlug": "ma167-chapter-xlvi-conclusion",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl06.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl06.jpg",
+          "caption": "PL06"
+        }
+      ],
+      "previousSlug": "ma166-chapter-xlv-that-human-imprecations-naturally-impress-their-powers-upon-external",
+      "nextSlug": "ma200-title-page"
+    },
+    {
+      "id": "ma200",
+      "slug": "ma200-title-page",
+      "title": "Title Page",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma200.htm",
+      "order": 69,
+      "isAppendix": false,
+      "wordCount": 128,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma167-chapter-xlvi-conclusion",
+      "nextSlug": "ma201-introduction"
+    },
+    {
+      "id": "ma201",
+      "slug": "ma201-introduction",
+      "title": "Introduction",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma201.htm",
+      "order": 70,
+      "isAppendix": false,
+      "wordCount": 286,
+      "pageMarkers": [
+        "3",
+        "4"
+      ],
+      "images": [],
+      "previousSlug": "ma200-title-page",
+      "nextSlug": "ma202-chapter-i-the-magnetic-or-attractive-power-or-faculty"
+    },
+    {
+      "id": "ma202",
+      "slug": "ma202-chapter-i-the-magnetic-or-attractive-power-or-faculty",
+      "title": "Chapter I: The Magnetic, Or Attractive Power Or Faculty",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma202.htm",
+      "order": 71,
+      "isAppendix": false,
+      "wordCount": 1379,
+      "pageMarkers": [
+        "5",
+        "6",
+        "213"
+      ],
+      "images": [],
+      "previousSlug": "ma201-introduction",
+      "nextSlug": "ma203-chapter-ii-of-sympathetic-medicines"
+    },
+    {
+      "id": "ma203",
+      "slug": "ma203-chapter-ii-of-sympathetic-medicines",
+      "title": "Chapter II: Of Sympathetic Medicines",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma203.htm",
+      "order": 72,
+      "isAppendix": false,
+      "wordCount": 604,
+      "pageMarkers": [
+        "8",
+        "9"
+      ],
+      "images": [],
+      "previousSlug": "ma202-chapter-i-the-magnetic-or-attractive-power-or-faculty",
+      "nextSlug": "ma204-chapter-iii-of-the-magnetic-or-sympathetic-unguent"
+    },
+    {
+      "id": "ma204",
+      "slug": "ma204-chapter-iii-of-the-magnetic-or-sympathetic-unguent",
+      "title": "Chapter III: Of The Magnetic Or Sympathetic Unguent...",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma204.htm",
+      "order": 73,
+      "isAppendix": false,
+      "wordCount": 711,
+      "pageMarkers": [
+        "10",
+        "11"
+      ],
+      "images": [],
+      "previousSlug": "ma203-chapter-ii-of-sympathetic-medicines",
+      "nextSlug": "ma205-chapter-iv-of-the-armary-unguent-or-weapon-salve"
+    },
+    {
+      "id": "ma205",
+      "slug": "ma205-chapter-iv-of-the-armary-unguent-or-weapon-salve",
+      "title": "Chapter IV: Of The Armary Unguent, Or Weapon Salve",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma205.htm",
+      "order": 74,
+      "isAppendix": false,
+      "wordCount": 594,
+      "pageMarkers": [
+        "12",
+        "13"
+      ],
+      "images": [],
+      "previousSlug": "ma204-chapter-iii-of-the-magnetic-or-sympathetic-unguent",
+      "nextSlug": "ma206-chapter-v-of-the-imaginative-power-and-the-magnetism-of-the-natural-spirits"
+    },
+    {
+      "id": "ma206",
+      "slug": "ma206-chapter-v-of-the-imaginative-power-and-the-magnetism-of-the-natural-spirits",
+      "title": "Chapter V: Of The Imaginative Power And The Magnetism Of The Natural Spirits...",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma206.htm",
+      "order": 75,
+      "isAppendix": false,
+      "wordCount": 1840,
+      "pageMarkers": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "images": [],
+      "previousSlug": "ma205-chapter-iv-of-the-armary-unguent-or-weapon-salve",
+      "nextSlug": "ma207-chapter-vi-of-witchcraft"
+    },
+    {
+      "id": "ma207",
+      "slug": "ma207-chapter-vi-of-witchcraft",
+      "title": "Chapter VI: Of Witchcraft",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma207.htm",
+      "order": 76,
+      "isAppendix": false,
+      "wordCount": 834,
+      "pageMarkers": [
+        "18",
+        "19",
+        "20"
+      ],
+      "images": [],
+      "previousSlug": "ma206-chapter-v-of-the-imaginative-power-and-the-magnetism-of-the-natural-spirits",
+      "nextSlug": "ma208-chapter-vii-of-the-vital-spirit-and-c"
+    },
+    {
+      "id": "ma208",
+      "slug": "ma208-chapter-vii-of-the-vital-spirit-and-c",
+      "title": "Chapter VII: Of The Vital Spirit, &c.",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma208.htm",
+      "order": 77,
+      "isAppendix": false,
+      "wordCount": 440,
+      "pageMarkers": [
+        "21"
+      ],
+      "images": [],
+      "previousSlug": "ma207-chapter-vi-of-witchcraft",
+      "nextSlug": "ma209-chapter-viii-of-the-magical-power"
+    },
+    {
+      "id": "ma209",
+      "slug": "ma209-chapter-viii-of-the-magical-power",
+      "title": "Chapter VIII: Of The Magical Power",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma209.htm",
+      "order": 78,
+      "isAppendix": false,
+      "wordCount": 885,
+      "pageMarkers": [
+        "22",
+        "23",
+        "24"
+      ],
+      "images": [],
+      "previousSlug": "ma208-chapter-vii-of-the-vital-spirit-and-c",
+      "nextSlug": "ma210-chapter-ix-of-the-exciting-or-stirring-up-the-magical-virtue"
+    },
+    {
+      "id": "ma210",
+      "slug": "ma210-chapter-ix-of-the-exciting-or-stirring-up-the-magical-virtue",
+      "title": "Chapter IX: Of The Exciting Or Stirring Up The Magical Virtue",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma210.htm",
+      "order": 79,
+      "isAppendix": false,
+      "wordCount": 889,
+      "pageMarkers": [
+        "25",
+        "26"
+      ],
+      "images": [],
+      "previousSlug": "ma209-chapter-viii-of-the-magical-power",
+      "nextSlug": "ma211-chapter-x-of-the-magical-virtue-of-the-soul-and-the-mediums-by-which-it-acts"
+    },
+    {
+      "id": "ma211",
+      "slug": "ma211-chapter-x-of-the-magical-virtue-of-the-soul-and-the-mediums-by-which-it-acts",
+      "title": "Chapter X: Of The Magical Virtue Of The Soul, And The Mediums By Which It Acts",
+      "book": "Book II",
+      "section": "Magnetism",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma211.htm",
+      "order": 80,
+      "isAppendix": false,
+      "wordCount": 807,
+      "pageMarkers": [
+        "27",
+        "28",
+        "29"
+      ],
+      "images": [],
+      "previousSlug": "ma210-chapter-ix-of-the-exciting-or-stirring-up-the-magical-virtue",
+      "nextSlug": "ma212-title-page"
+    },
+    {
+      "id": "ma212",
+      "slug": "ma212-title-page",
+      "title": "title page",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma212.htm",
+      "order": 81,
+      "isAppendix": false,
+      "wordCount": 83,
+      "pageMarkers": [
+        "31"
+      ],
+      "images": [],
+      "previousSlug": "ma211-chapter-x-of-the-magical-virtue-of-the-soul-and-the-mediums-by-which-it-acts",
+      "nextSlug": "ma213-chapter-i-of-the-cabala"
+    },
+    {
+      "id": "ma213",
+      "slug": "ma213-chapter-i-of-the-cabala",
+      "title": "Chapter I: Of The Cabala",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma213.htm",
+      "order": 82,
+      "isAppendix": false,
+      "wordCount": 357,
+      "pageMarkers": [
+        "34"
+      ],
+      "images": [],
+      "previousSlug": "ma212-title-page",
+      "nextSlug": "ma214-chapter-ii-what-dignity-and-preparation-is-essentially-necessary-to-him-who-woul"
+    },
+    {
+      "id": "ma214",
+      "slug": "ma214-chapter-ii-what-dignity-and-preparation-is-essentially-necessary-to-him-who-woul",
+      "title": "Chapter II: What Dignity And Preparation Is Essentially Necessary To Him Who Would Become A True Magician",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma214.htm",
+      "order": 83,
+      "isAppendix": false,
+      "wordCount": 152,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma213-chapter-i-of-the-cabala",
+      "nextSlug": "ma215-chapter-iii-that-the-knowledge-of-the-true-god-is-necessary-for-a-magician"
+    },
+    {
+      "id": "ma215",
+      "slug": "ma215-chapter-iii-that-the-knowledge-of-the-true-god-is-necessary-for-a-magician",
+      "title": "Chapter III: That The Knowledge Of The True God Is Necessary For A Magician",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma215.htm",
+      "order": 84,
+      "isAppendix": false,
+      "wordCount": 215,
+      "pageMarkers": [
+        "35"
+      ],
+      "images": [],
+      "previousSlug": "ma214-chapter-ii-what-dignity-and-preparation-is-essentially-necessary-to-him-who-woul",
+      "nextSlug": "ma216-chapter-iv-of-divine-emanations-and-ten-sephiroths"
+    },
+    {
+      "id": "ma216",
+      "slug": "ma216-chapter-iv-of-divine-emanations-and-ten-sephiroths",
+      "title": "Chapter IV: Of Divine Emanations, And Ten Sephiroths...",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma216.htm",
+      "order": 85,
+      "isAppendix": false,
+      "wordCount": 1210,
+      "pageMarkers": [
+        "36",
+        "37",
+        "38"
+      ],
+      "images": [],
+      "previousSlug": "ma215-chapter-iii-that-the-knowledge-of-the-true-god-is-necessary-for-a-magician",
+      "nextSlug": "ma217-chapter-v-of-the-power-and-virtue-of-the-divine-names"
+    },
+    {
+      "id": "ma217",
+      "slug": "ma217-chapter-v-of-the-power-and-virtue-of-the-divine-names",
+      "title": "Chapter V: Of The Power And Virtue Of The Divine Names",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma217.htm",
+      "order": 86,
+      "isAppendix": false,
+      "wordCount": 1223,
+      "pageMarkers": [
+        "39",
+        "40",
+        "41"
+      ],
+      "images": [
+        {
+          "id": "ma217-chapter-v-of-the-power-and-virtue-of-the-divine-names-image-1",
+          "chapterSlug": "ma217-chapter-v-of-the-power-and-virtue-of-the-divine-names",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl07.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl07.jpg",
+          "caption": "PL07"
+        }
+      ],
+      "previousSlug": "ma216-chapter-iv-of-divine-emanations-and-ten-sephiroths",
+      "nextSlug": "ma218-chapter-vi-of-intelligences-and-spirits"
+    },
+    {
+      "id": "ma218",
+      "slug": "ma218-chapter-vi-of-intelligences-and-spirits",
+      "title": "Chapter VI: Of Intelligences And Spirits...",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma218.htm",
+      "order": 87,
+      "isAppendix": false,
+      "wordCount": 1555,
+      "pageMarkers": [
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "images": [
+        {
+          "id": "ma218-chapter-vi-of-intelligences-and-spirits-image-1",
+          "chapterSlug": "ma218-chapter-vi-of-intelligences-and-spirits",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl08.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl08.jpg",
+          "caption": "PL08"
+        },
+        {
+          "id": "ma218-chapter-vi-of-intelligences-and-spirits-image-2",
+          "chapterSlug": "ma218-chapter-vi-of-intelligences-and-spirits",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl09.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl09.jpg",
+          "caption": "PL09"
+        }
+      ],
+      "previousSlug": "ma217-chapter-v-of-the-power-and-virtue-of-the-divine-names",
+      "nextSlug": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures"
+    },
+    {
+      "id": "ma219",
+      "slug": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures",
+      "title": "Chapter VII: Of The Order Of Evil Spirits, And Their Fall, And Different Natures",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma219.htm",
+      "order": 88,
+      "isAppendix": false,
+      "wordCount": 1236,
+      "pageMarkers": [
+        "46",
+        "47",
+        "48"
+      ],
+      "images": [
+        {
+          "id": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures-image-1",
+          "chapterSlug": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl10.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl10.jpg",
+          "caption": "PL10"
+        },
+        {
+          "id": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures-image-2",
+          "chapterSlug": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl11.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl11.jpg",
+          "caption": "PL11"
+        }
+      ],
+      "previousSlug": "ma218-chapter-vi-of-intelligences-and-spirits",
+      "nextSlug": "ma220-chapter-vii-of-the-annoyance-of-evil-spirits-and-the-preservation-we-have-from-g"
+    },
+    {
+      "id": "ma220",
+      "slug": "ma220-chapter-vii-of-the-annoyance-of-evil-spirits-and-the-preservation-we-have-from-g",
+      "title": "Chapter VII: Of The Annoyance Of Evil Spirits, And The Preservation We Have From Good Spirits",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma220.htm",
+      "order": 89,
+      "isAppendix": false,
+      "wordCount": 1176,
+      "pageMarkers": [
+        "49",
+        "50",
+        "51"
+      ],
+      "images": [],
+      "previousSlug": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures",
+      "nextSlug": "ma221-chapter-ix-that-there-is-a-threefold-keeper-of-man-and-from-whence-each-of-them-"
+    },
+    {
+      "id": "ma221",
+      "slug": "ma221-chapter-ix-that-there-is-a-threefold-keeper-of-man-and-from-whence-each-of-them-",
+      "title": "Chapter IX: That There Is A Threefold Keeper Of Man, And From Whence Each Of Them Proceed",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma221.htm",
+      "order": 90,
+      "isAppendix": false,
+      "wordCount": 426,
+      "pageMarkers": [
+        "52",
+        "53"
+      ],
+      "images": [],
+      "previousSlug": "ma220-chapter-vii-of-the-annoyance-of-evil-spirits-and-the-preservation-we-have-from-g",
+      "nextSlug": "ma222-chapter-x-of-the-tongue-of-angels-and-of-their-speaking-amongst-themselves-and-w"
+    },
+    {
+      "id": "ma222",
+      "slug": "ma222-chapter-x-of-the-tongue-of-angels-and-of-their-speaking-amongst-themselves-and-w",
+      "title": "Chapter X: Of The Tongue Of Angels, And Of Their Speaking Amongst Themselves And With Us",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma222.htm",
+      "order": 91,
+      "isAppendix": false,
+      "wordCount": 592,
+      "pageMarkers": [
+        "54"
+      ],
+      "images": [],
+      "previousSlug": "ma221-chapter-ix-that-there-is-a-threefold-keeper-of-man-and-from-whence-each-of-them-",
+      "nextSlug": "ma223-chapter-xi-of-the-names-of-spirits-and-their-various-imposition"
+    },
+    {
+      "id": "ma223",
+      "slug": "ma223-chapter-xi-of-the-names-of-spirits-and-their-various-imposition",
+      "title": "Chapter XI: Of The Names Of Spirits, And Their Various Imposition...",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma223.htm",
+      "order": 92,
+      "isAppendix": false,
+      "wordCount": 1298,
+      "pageMarkers": [
+        "55",
+        "56",
+        "57",
+        "58"
+      ],
+      "images": [],
+      "previousSlug": "ma222-chapter-x-of-the-tongue-of-angels-and-of-their-speaking-amongst-themselves-and-w",
+      "nextSlug": "ma224-chapter-xii-the-cabalists-draw-forth-the-sacred-names-of-angels-from-sacred-writ"
+    },
+    {
+      "id": "ma224",
+      "slug": "ma224-chapter-xii-the-cabalists-draw-forth-the-sacred-names-of-angels-from-sacred-writ",
+      "title": "Chapter XII: The Cabalists Draw Forth The Sacred Names Of Angels From Sacred Writ...",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma224.htm",
+      "order": 93,
+      "isAppendix": false,
+      "wordCount": 676,
+      "pageMarkers": [
+        "59"
+      ],
+      "images": [],
+      "previousSlug": "ma223-chapter-xi-of-the-names-of-spirits-and-their-various-imposition",
+      "nextSlug": "ma225-chapter-xiii-of-finding-out-the-names-of-spirits-and-genii-from-the-disposition-"
+    },
+    {
+      "id": "ma225",
+      "slug": "ma225-chapter-xiii-of-finding-out-the-names-of-spirits-and-genii-from-the-disposition-",
+      "title": "Chapter XIII: Of Finding Out The Names Of Spirits And Genii, From The Disposition Of The Celestial Bodies",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma225.htm",
+      "order": 94,
+      "isAppendix": false,
+      "wordCount": 530,
+      "pageMarkers": [
+        "60",
+        "61"
+      ],
+      "images": [],
+      "previousSlug": "ma224-chapter-xii-the-cabalists-draw-forth-the-sacred-names-of-angels-from-sacred-writ",
+      "nextSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists"
+    },
+    {
+      "id": "ma226",
+      "slug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+      "title": "Chapter XIV: Of The Calculating Art Of Such Names By The Tradition Of Cabalists",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma226.htm",
+      "order": 95,
+      "isAppendix": false,
+      "wordCount": 973,
+      "pageMarkers": [
+        "62",
+        "63"
+      ],
+      "images": [
+        {
+          "id": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists-image-1",
+          "chapterSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl12.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl12.jpg",
+          "caption": "PL12"
+        },
+        {
+          "id": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists-image-2",
+          "chapterSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl13.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl13.jpg",
+          "caption": "PL13"
+        },
+        {
+          "id": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists-image-3",
+          "chapterSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl14.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl14.jpg",
+          "caption": "PL14"
+        },
+        {
+          "id": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists-image-4",
+          "chapterSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl15.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl15.jpg",
+          "caption": "PL15"
+        }
+      ],
+      "previousSlug": "ma225-chapter-xiii-of-finding-out-the-names-of-spirits-and-genii-from-the-disposition-",
+      "nextSlug": "ma227-chapter-xv-of-the-characters-and-seals-of-spirits"
+    },
+    {
+      "id": "ma227",
+      "slug": "ma227-chapter-xv-of-the-characters-and-seals-of-spirits",
+      "title": "Chapter XV: Of The Characters And Seals Of Spirits",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma227.htm",
+      "order": 96,
+      "isAppendix": false,
+      "wordCount": 176,
+      "pageMarkers": [
+        "64"
+      ],
+      "images": [],
+      "previousSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+      "nextSlug": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists"
+    },
+    {
+      "id": "ma228",
+      "slug": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists",
+      "title": "Chapter XVI: Another Way Of Making Characters, According To The Cabalists",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma228.htm",
+      "order": 97,
+      "isAppendix": false,
+      "wordCount": 654,
+      "pageMarkers": [
+        "65",
+        "66"
+      ],
+      "images": [
+        {
+          "id": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists-image-1",
+          "chapterSlug": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl16.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl16.jpg",
+          "caption": "PL16"
+        },
+        {
+          "id": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists-image-2",
+          "chapterSlug": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl17.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl17.jpg",
+          "caption": "PL17"
+        }
+      ],
+      "previousSlug": "ma227-chapter-xv-of-the-characters-and-seals-of-spirits",
+      "nextSlug": "ma229-chapter-xvii-there-is-another-kind-of-characters-or-marks-of-spirits-which-are-r"
+    },
+    {
+      "id": "ma229",
+      "slug": "ma229-chapter-xvii-there-is-another-kind-of-characters-or-marks-of-spirits-which-are-r",
+      "title": "Chapter XVII: There Is Another Kind Of Characters, Or Marks Of Spirits, Which Are Received Only By Revelation.",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma229.htm",
+      "order": 98,
+      "isAppendix": false,
+      "wordCount": 245,
+      "pageMarkers": [
+        "67"
+      ],
+      "images": [
+        {
+          "id": "ma229-chapter-xvii-there-is-another-kind-of-characters-or-marks-of-spirits-which-are-r-image-1",
+          "chapterSlug": "ma229-chapter-xvii-there-is-another-kind-of-characters-or-marks-of-spirits-which-are-r",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl18.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl18.jpg",
+          "caption": "PL18"
+        }
+      ],
+      "previousSlug": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists",
+      "nextSlug": "ma230-chapter-xviii-on-the-bonds-of-spirits-and-their-adjurations-and-castings-out"
+    },
+    {
+      "id": "ma230",
+      "slug": "ma230-chapter-xviii-on-the-bonds-of-spirits-and-their-adjurations-and-castings-out",
+      "title": "Chapter XVIII: On The Bonds Of Spirits, And Their Adjurations, And Castings Out",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma230.htm",
+      "order": 99,
+      "isAppendix": false,
+      "wordCount": 449,
+      "pageMarkers": [
+        "68"
+      ],
+      "images": [],
+      "previousSlug": "ma229-chapter-xvii-there-is-another-kind-of-characters-or-marks-of-spirits-which-are-r",
+      "nextSlug": "ma231-chapter-xix-by-what-means-magicians-and-necromancers-call-forth-the-souls-of-the"
+    },
+    {
+      "id": "ma231",
+      "slug": "ma231-chapter-xix-by-what-means-magicians-and-necromancers-call-forth-the-souls-of-the",
+      "title": "Chapter XIX: By What Means Magicians And Necromancers Call Forth The Souls Of The Dead",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma231.htm",
+      "order": 100,
+      "isAppendix": false,
+      "wordCount": 608,
+      "pageMarkers": [
+        "69",
+        "70"
+      ],
+      "images": [],
+      "previousSlug": "ma230-chapter-xviii-on-the-bonds-of-spirits-and-their-adjurations-and-castings-out",
+      "nextSlug": "ma232-chapter-xx-of-prophetical-dreams"
+    },
+    {
+      "id": "ma232",
+      "slug": "ma232-chapter-xx-of-prophetical-dreams",
+      "title": "Chapter XX: Of Prophetical Dreams",
+      "book": "Book II",
+      "section": "The Cabala; Or The Secret Mysteries Of Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma232.htm",
+      "order": 101,
+      "isAppendix": false,
+      "wordCount": 793,
+      "pageMarkers": [
+        "71",
+        "72"
+      ],
+      "images": [],
+      "previousSlug": "ma231-chapter-xix-by-what-means-magicians-and-necromancers-call-forth-the-souls-of-the",
+      "nextSlug": "ma233-introduction"
+    },
+    {
+      "id": "ma233",
+      "slug": "ma233-introduction",
+      "title": "Introduction",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma233.htm",
+      "order": 102,
+      "isAppendix": false,
+      "wordCount": 2913,
+      "pageMarkers": [
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "80"
+      ],
+      "images": [
+        {
+          "id": "ma233-introduction-image-1",
+          "chapterSlug": "ma233-introduction",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl19.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl19.jpg",
+          "caption": "PL19"
+        }
+      ],
+      "previousSlug": "ma232-chapter-xx-of-prophetical-dreams",
+      "nextSlug": "ma234-of-magic-pentacles-and-their-composition"
+    },
+    {
+      "id": "ma234",
+      "slug": "ma234-of-magic-pentacles-and-their-composition",
+      "title": "Of Magic Pentacles And Their Composition",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma234.htm",
+      "order": 103,
+      "isAppendix": false,
+      "wordCount": 1851,
+      "pageMarkers": [
+        "81",
+        "82",
+        "83",
+        "84",
+        "85"
+      ],
+      "images": [],
+      "previousSlug": "ma233-introduction",
+      "nextSlug": "ma235-of-the-consecration-of-all-magical-instruments-and-materials-which-are-used-in-t"
+    },
+    {
+      "id": "ma235",
+      "slug": "ma235-of-the-consecration-of-all-magical-instruments-and-materials-which-are-used-in-t",
+      "title": "Of The Consecration Of All Magical Instruments And Materials Which Are Used In This Art",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma235.htm",
+      "order": 104,
+      "isAppendix": false,
+      "wordCount": 358,
+      "pageMarkers": [
+        "86"
+      ],
+      "images": [],
+      "previousSlug": "ma234-of-magic-pentacles-and-their-composition",
+      "nextSlug": "ma236-the-consecration-of-water"
+    },
+    {
+      "id": "ma236",
+      "slug": "ma236-the-consecration-of-water",
+      "title": "The Consecration Of Water",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma236.htm",
+      "order": 105,
+      "isAppendix": false,
+      "wordCount": 220,
+      "pageMarkers": [
+        "87"
+      ],
+      "images": [],
+      "previousSlug": "ma235-of-the-consecration-of-all-magical-instruments-and-materials-which-are-used-in-t",
+      "nextSlug": "ma237-consecration-of-fire"
+    },
+    {
+      "id": "ma237",
+      "slug": "ma237-consecration-of-fire",
+      "title": "Consecration Of Fire",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma237.htm",
+      "order": 106,
+      "isAppendix": false,
+      "wordCount": 197,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma236-the-consecration-of-water",
+      "nextSlug": "ma238-the-consecration-of-oil"
+    },
+    {
+      "id": "ma238",
+      "slug": "ma238-the-consecration-of-oil",
+      "title": "The Consecration Of Oil",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma238.htm",
+      "order": 107,
+      "isAppendix": false,
+      "wordCount": 80,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma237-consecration-of-fire",
+      "nextSlug": "ma239-of-the-benediction-of-lights-lamps-wax-and-c"
+    },
+    {
+      "id": "ma239",
+      "slug": "ma239-of-the-benediction-of-lights-lamps-wax-and-c",
+      "title": "Of The Benediction Of Lights, Lamps, Wax, &c.",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma239.htm",
+      "order": 108,
+      "isAppendix": false,
+      "wordCount": 112,
+      "pageMarkers": [
+        "88"
+      ],
+      "images": [],
+      "previousSlug": "ma238-the-consecration-of-oil",
+      "nextSlug": "ma240-the-consecration-of-places-ground-circle-and-c"
+    },
+    {
+      "id": "ma240",
+      "slug": "ma240-the-consecration-of-places-ground-circle-and-c",
+      "title": "The Consecration Of Places, Ground, Circle, &c.",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma240.htm",
+      "order": 109,
+      "isAppendix": false,
+      "wordCount": 571,
+      "pageMarkers": [
+        "89"
+      ],
+      "images": [],
+      "previousSlug": "ma239-of-the-benediction-of-lights-lamps-wax-and-c",
+      "nextSlug": "ma241-of-the-invocation-of-evil-spirits-and-the-binding-of-and-constraining-of-them-to"
+    },
+    {
+      "id": "ma241",
+      "slug": "ma241-of-the-invocation-of-evil-spirits-and-the-binding-of-and-constraining-of-them-to",
+      "title": "Of The Invocation Of Evil Spirits, And The Binding, Of, And Constraining Of Them To Appear",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma241.htm",
+      "order": 110,
+      "isAppendix": false,
+      "wordCount": 1657,
+      "pageMarkers": [
+        "90",
+        "91",
+        "92",
+        "93"
+      ],
+      "images": [],
+      "previousSlug": "ma240-the-consecration-of-places-ground-circle-and-c",
+      "nextSlug": "ma242-an-invocation-of-the-good-spirits"
+    },
+    {
+      "id": "ma242",
+      "slug": "ma242-an-invocation-of-the-good-spirits",
+      "title": "An Invocation Of The Good Spirits",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma242.htm",
+      "order": 111,
+      "isAppendix": false,
+      "wordCount": 209,
+      "pageMarkers": [
+        "94"
+      ],
+      "images": [],
+      "previousSlug": "ma241-of-the-invocation-of-evil-spirits-and-the-binding-of-and-constraining-of-them-to",
+      "nextSlug": "ma243-the-particular-form-of-the-lamen"
+    },
+    {
+      "id": "ma243",
+      "slug": "ma243-the-particular-form-of-the-lamen",
+      "title": "The Particular Form Of The Lamen",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma243.htm",
+      "order": 112,
+      "isAppendix": false,
+      "wordCount": 797,
+      "pageMarkers": [
+        "95",
+        "96"
+      ],
+      "images": [],
+      "previousSlug": "ma242-an-invocation-of-the-good-spirits",
+      "nextSlug": "ma244-of-oracles-by-dreams"
+    },
+    {
+      "id": "ma244",
+      "slug": "ma244-of-oracles-by-dreams",
+      "title": "Of Oracles By Dreams",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma244.htm",
+      "order": 113,
+      "isAppendix": false,
+      "wordCount": 993,
+      "pageMarkers": [
+        "97",
+        "98"
+      ],
+      "images": [],
+      "previousSlug": "ma243-the-particular-form-of-the-lamen",
+      "nextSlug": "ma245-of-the-method-of-raising-evil-or-familiar-spirits"
+    },
+    {
+      "id": "ma245",
+      "slug": "ma245-of-the-method-of-raising-evil-or-familiar-spirits",
+      "title": "Of The Method Of Raising Evil Or Familiar Spirits...",
+      "book": "Book II",
+      "section": "The Perfection and Key of the Cabala, or Ceremonial Magic",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma245.htm",
+      "order": 114,
+      "isAppendix": false,
+      "wordCount": 1903,
+      "pageMarkers": [
+        "99",
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "images": [],
+      "previousSlug": "ma244-of-oracles-by-dreams",
+      "nextSlug": "ma246-exorcism-benedictions-and-conjurations"
+    },
+    {
+      "id": "ma246",
+      "slug": "ma246-exorcism-benedictions-and-conjurations",
+      "title": "Exorcism, Benedictions and Conjurations",
+      "book": "Book II",
+      "section": "Of The Particular Composition Of The Magical Circle",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma246.htm",
+      "order": 115,
+      "isAppendix": false,
+      "wordCount": 3729,
+      "pageMarkers": [
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116"
+      ],
+      "images": [
+        {
+          "id": "ma246-exorcism-benedictions-and-conjurations-image-1",
+          "chapterSlug": "ma246-exorcism-benedictions-and-conjurations",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl20.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl20.jpg",
+          "caption": "PL20"
+        },
+        {
+          "id": "ma246-exorcism-benedictions-and-conjurations-image-2",
+          "chapterSlug": "ma246-exorcism-benedictions-and-conjurations",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl21.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl21.jpg",
+          "caption": "PL21"
+        }
+      ],
+      "previousSlug": "ma245-of-the-method-of-raising-evil-or-familiar-spirits",
+      "nextSlug": "ma247-considerations-and-conjurations-for-every-day-in-the-week"
+    },
+    {
+      "id": "ma247",
+      "slug": "ma247-considerations-and-conjurations-for-every-day-in-the-week",
+      "title": "Considerations And Conjurations For Every Day In The Week",
+      "book": "Book II",
+      "section": "Of The Particular Composition Of The Magical Circle",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma247.htm",
+      "order": 116,
+      "isAppendix": false,
+      "wordCount": 3393,
+      "pageMarkers": [
+        "117",
+        "118",
+        "119",
+        "120",
+        "121",
+        "122",
+        "123",
+        "124",
+        "125",
+        "126",
+        "127"
+      ],
+      "images": [],
+      "previousSlug": "ma246-exorcism-benedictions-and-conjurations",
+      "nextSlug": "ma248-title-page"
+    },
+    {
+      "id": "ma248",
+      "slug": "ma248-title-page",
+      "title": "Title Page",
+      "book": "Book II",
+      "section": "The Magic and Philosophy of Trithemius of Spanheim",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma248.htm",
+      "order": 117,
+      "isAppendix": false,
+      "wordCount": 73,
+      "pageMarkers": [],
+      "images": [
+        {
+          "id": "ma248-title-page-image-1",
+          "chapterSlug": "ma248-title-page",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl22.jpg",
+          "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+          "localPath": "/assets/plates/pl22.jpg",
+          "caption": "PL22"
+        }
+      ],
+      "previousSlug": "ma247-considerations-and-conjurations-for-every-day-in-the-week",
+      "nextSlug": "ma249-the-translator-s-letter-to-a-friend-of-his-a-young-student-in-these-occult-scien"
+    },
+    {
+      "id": "ma249",
+      "slug": "ma249-the-translator-s-letter-to-a-friend-of-his-a-young-student-in-these-occult-scien",
+      "title": "The Translator's Letter To A Friend Of His, A Young Student In These Occult Sciences",
+      "book": "Book II",
+      "section": "The Magic and Philosophy of Trithemius of Spanheim",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma249.htm",
+      "order": 118,
+      "isAppendix": false,
+      "wordCount": 1143,
+      "pageMarkers": [
+        "132",
+        "133",
+        "134"
+      ],
+      "images": [],
+      "previousSlug": "ma248-title-page",
+      "nextSlug": "ma250-a-caution-to-the-inexperienced-in-this-art-and-a-word-of-advice-to-those-who-wou"
+    },
+    {
+      "id": "ma250",
+      "slug": "ma250-a-caution-to-the-inexperienced-in-this-art-and-a-word-of-advice-to-those-who-wou",
+      "title": "A Caution To The Inexperienced In This Art, And A Word Of Advice To Those Who Would Be Adepts",
+      "book": "Book II",
+      "section": "The Magic and Philosophy of Trithemius of Spanheim",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma250.htm",
+      "order": 119,
+      "isAppendix": false,
+      "wordCount": 306,
+      "pageMarkers": [
+        "135"
+      ],
+      "images": [],
+      "previousSlug": "ma249-the-translator-s-letter-to-a-friend-of-his-a-young-student-in-these-occult-scien",
+      "nextSlug": "ma251-of-the-making-of-the-crystal-and-the-form-of-preparation-for-a-vision"
+    },
+    {
+      "id": "ma251",
+      "slug": "ma251-of-the-making-of-the-crystal-and-the-form-of-preparation-for-a-vision",
+      "title": "Of the making of the CRYSTAL and the Form of Preparation for a VISION",
+      "book": "Book II",
+      "section": "The Magic and Philosophy of Trithemius of Spanheim",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma251.htm",
+      "order": 120,
+      "isAppendix": false,
+      "wordCount": 1922,
+      "pageMarkers": [
+        "136",
+        "137",
+        "138",
+        "139",
+        "140"
+      ],
+      "images": [
+        {
+          "id": "ma251-of-the-making-of-the-crystal-and-the-form-of-preparation-for-a-vision-image-1",
+          "chapterSlug": "ma251-of-the-making-of-the-crystal-and-the-form-of-preparation-for-a-vision",
+          "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/13500.jpg",
+          "localPath": "/assets/plates/13500.jpg",
+          "caption": "13500"
+        }
+      ],
+      "previousSlug": "ma250-a-caution-to-the-inexperienced-in-this-art-and-a-word-of-advice-to-those-who-wou",
+      "nextSlug": "ma252-advertisement"
+    },
+    {
+      "id": "ma252",
+      "slug": "ma252-advertisement",
+      "title": "Advertisement",
+      "book": "Book II",
+      "section": "The Magic and Philosophy of Trithemius of Spanheim",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma252.htm",
+      "order": 121,
+      "isAppendix": false,
+      "wordCount": 314,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma251-of-the-making-of-the-crystal-and-the-form-of-preparation-for-a-vision",
+      "nextSlug": "ma253-title-page"
+    },
+    {
+      "id": "ma253",
+      "slug": "ma253-title-page",
+      "title": "Title Page",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma253.htm",
+      "order": 122,
+      "isAppendix": true,
+      "wordCount": 120,
+      "pageMarkers": [],
+      "images": [],
+      "previousSlug": "ma252-advertisement",
+      "nextSlug": "ma254-zoroaster"
+    },
+    {
+      "id": "ma254",
+      "slug": "ma254-zoroaster",
+      "title": "Zoroaster",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma254.htm",
+      "order": 123,
+      "isAppendix": true,
+      "wordCount": 3748,
+      "pageMarkers": [
+        "143",
+        "144",
+        "145",
+        "146",
+        "147",
+        "148",
+        "149"
+      ],
+      "images": [],
+      "previousSlug": "ma253-title-page",
+      "nextSlug": "ma255-hermes-trismegistus"
+    },
+    {
+      "id": "ma255",
+      "slug": "ma255-hermes-trismegistus",
+      "title": "Hermes Trismegistus",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma255.htm",
+      "order": 124,
+      "isAppendix": true,
+      "wordCount": 685,
+      "pageMarkers": [
+        "150",
+        "151",
+        "152"
+      ],
+      "images": [],
+      "previousSlug": "ma254-zoroaster",
+      "nextSlug": "ma256-appollonius-of-tyana"
+    },
+    {
+      "id": "ma256",
+      "slug": "ma256-appollonius-of-tyana",
+      "title": "Appollonius Of Tyana",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma256.htm",
+      "order": 125,
+      "isAppendix": true,
+      "wordCount": 897,
+      "pageMarkers": [
+        "153",
+        "154"
+      ],
+      "images": [],
+      "previousSlug": "ma255-hermes-trismegistus",
+      "nextSlug": "ma257-petrus-de-abano"
+    },
+    {
+      "id": "ma257",
+      "slug": "ma257-petrus-de-abano",
+      "title": "Petrus de Abano",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma257.htm",
+      "order": 126,
+      "isAppendix": true,
+      "wordCount": 1436,
+      "pageMarkers": [
+        "155",
+        "156",
+        "157"
+      ],
+      "images": [],
+      "previousSlug": "ma256-appollonius-of-tyana",
+      "nextSlug": "ma258-apuleius"
+    },
+    {
+      "id": "ma258",
+      "slug": "ma258-apuleius",
+      "title": "Apuleius",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma258.htm",
+      "order": 127,
+      "isAppendix": true,
+      "wordCount": 1889,
+      "pageMarkers": [
+        "158",
+        "159",
+        "160",
+        "161"
+      ],
+      "images": [],
+      "previousSlug": "ma257-petrus-de-abano",
+      "nextSlug": "ma259-aristotle"
+    },
+    {
+      "id": "ma259",
+      "slug": "ma259-aristotle",
+      "title": "Aristotle",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma259.htm",
+      "order": 128,
+      "isAppendix": true,
+      "wordCount": 1691,
+      "pageMarkers": [
+        "162",
+        "163",
+        "164",
+        "165",
+        "166"
+      ],
+      "images": [],
+      "previousSlug": "ma258-apuleius",
+      "nextSlug": "ma260-artemidorus-of-ephesus"
+    },
+    {
+      "id": "ma260",
+      "slug": "ma260-artemidorus-of-ephesus",
+      "title": "Artemidorus Of Ephesus",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma260.htm",
+      "order": 129,
+      "isAppendix": true,
+      "wordCount": 932,
+      "pageMarkers": [
+        "167",
+        "168"
+      ],
+      "images": [],
+      "previousSlug": "ma259-aristotle",
+      "nextSlug": "ma261-babylonians"
+    },
+    {
+      "id": "ma261",
+      "slug": "ma261-babylonians",
+      "title": "Babylonians",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma261.htm",
+      "order": 130,
+      "isAppendix": true,
+      "wordCount": 535,
+      "pageMarkers": [
+        "169"
+      ],
+      "images": [],
+      "previousSlug": "ma260-artemidorus-of-ephesus",
+      "nextSlug": "ma262-cornelius-agrippa"
+    },
+    {
+      "id": "ma262",
+      "slug": "ma262-cornelius-agrippa",
+      "title": "Cornelius Agrippa",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma262.htm",
+      "order": 131,
+      "isAppendix": true,
+      "wordCount": 4369,
+      "pageMarkers": [
+        "170",
+        "171",
+        "172",
+        "173",
+        "174",
+        "175",
+        "176",
+        "177",
+        "178",
+        "179"
+      ],
+      "images": [],
+      "previousSlug": "ma261-babylonians",
+      "nextSlug": "ma263-albertus-magnus"
+    },
+    {
+      "id": "ma263",
+      "slug": "ma263-albertus-magnus",
+      "title": "Albertus Magnus",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma263.htm",
+      "order": 132,
+      "isAppendix": true,
+      "wordCount": 510,
+      "pageMarkers": [
+        "180",
+        "181"
+      ],
+      "images": [],
+      "previousSlug": "ma262-cornelius-agrippa",
+      "nextSlug": "ma264-roger-bacon"
+    },
+    {
+      "id": "ma264",
+      "slug": "ma264-roger-bacon",
+      "title": "Roger Bacon",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma264.htm",
+      "order": 133,
+      "isAppendix": true,
+      "wordCount": 1040,
+      "pageMarkers": [
+        "182",
+        "183",
+        "184"
+      ],
+      "images": [],
+      "previousSlug": "ma263-albertus-magnus",
+      "nextSlug": "ma265-raymond-lully"
+    },
+    {
+      "id": "ma265",
+      "slug": "ma265-raymond-lully",
+      "title": "Raymond Lully",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma265.htm",
+      "order": 134,
+      "isAppendix": true,
+      "wordCount": 560,
+      "pageMarkers": [
+        "185"
+      ],
+      "images": [],
+      "previousSlug": "ma264-roger-bacon",
+      "nextSlug": "ma266-george-ripley"
+    },
+    {
+      "id": "ma266",
+      "slug": "ma266-george-ripley",
+      "title": "George Ripley",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma266.htm",
+      "order": 135,
+      "isAppendix": true,
+      "wordCount": 187,
+      "pageMarkers": [
+        "186"
+      ],
+      "images": [],
+      "previousSlug": "ma265-raymond-lully",
+      "nextSlug": "ma267-john-and-isaac-hollandus"
+    },
+    {
+      "id": "ma267",
+      "slug": "ma267-john-and-isaac-hollandus",
+      "title": "John, And Isaac Hollandus",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma267.htm",
+      "order": 136,
+      "isAppendix": true,
+      "wordCount": 212,
+      "pageMarkers": [
+        "187"
+      ],
+      "images": [],
+      "previousSlug": "ma266-george-ripley",
+      "nextSlug": "ma268-paracelsus"
+    },
+    {
+      "id": "ma268",
+      "slug": "ma268-paracelsus",
+      "title": "Paracelsus",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma268.htm",
+      "order": 137,
+      "isAppendix": true,
+      "wordCount": 2472,
+      "pageMarkers": [
+        "188",
+        "189",
+        "190",
+        "191",
+        "192",
+        "193",
+        "194"
+      ],
+      "images": [],
+      "previousSlug": "ma267-john-and-isaac-hollandus",
+      "nextSlug": "ma269-john-rudolph-glauber"
+    },
+    {
+      "id": "ma269",
+      "slug": "ma269-john-rudolph-glauber",
+      "title": "John Rudolph Glauber",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma269.htm",
+      "order": 138,
+      "isAppendix": true,
+      "wordCount": 319,
+      "pageMarkers": [
+        "195"
+      ],
+      "images": [],
+      "previousSlug": "ma268-paracelsus",
+      "nextSlug": "ma270-doctor-dee-and-sir-edward-kelly"
+    },
+    {
+      "id": "ma270",
+      "slug": "ma270-doctor-dee-and-sir-edward-kelly",
+      "title": "Doctor Dee, And Sir Edward Kelly",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma270.htm",
+      "order": 139,
+      "isAppendix": true,
+      "wordCount": 734,
+      "pageMarkers": [
+        "196",
+        "197"
+      ],
+      "images": [],
+      "previousSlug": "ma269-john-rudolph-glauber",
+      "nextSlug": "ma271-the-conclusion"
+    },
+    {
+      "id": "ma271",
+      "slug": "ma271-the-conclusion",
+      "title": "The Conclusion",
+      "book": "Book II",
+      "section": "Biographia Antiqua",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma271.htm",
+      "order": 140,
+      "isAppendix": true,
+      "wordCount": 626,
+      "pageMarkers": [
+        "198"
+      ],
+      "images": [],
+      "previousSlug": "ma270-doctor-dee-and-sir-edward-kelly"
+    }
+  ],
+  "plates": [
+    {
+      "id": "ma100-title-page-image-1",
+      "chapterSlug": "ma100-title-page",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/front.jpg",
+      "localPath": "/assets/plates/front.jpg",
+      "caption": "FRONT"
+    },
+    {
+      "id": "ma147-chapter-xxv-of-the-number-ten-and-the-scale-image-1",
+      "chapterSlug": "ma147-chapter-xxv-of-the-number-ten-and-the-scale",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/13300.jpg",
+      "localPath": "/assets/plates/13300.jpg",
+      "caption": "13300"
+    },
+    {
+      "id": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici-image-1",
+      "chapterSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/14100.jpg",
+      "localPath": "/assets/plates/14100.jpg",
+      "caption": "14100"
+    },
+    {
+      "id": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici-image-2",
+      "chapterSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/14101.jpg",
+      "localPath": "/assets/plates/14101.jpg",
+      "caption": "14101"
+    },
+    {
+      "id": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici-image-3",
+      "chapterSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/14102.jpg",
+      "localPath": "/assets/plates/14102.jpg",
+      "caption": "14102"
+    },
+    {
+      "id": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici-image-4",
+      "chapterSlug": "ma149-chapter-xvii-of-the-notes-of-the-hebrews-and-chaldeans-and-other-notes-of-magici",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/14200.jpg",
+      "localPath": "/assets/plates/14200.jpg",
+      "caption": "14200"
+    },
+    {
+      "id": "ma150-chapter-xxviii-the-magic-tables-of-the-planets-image-1",
+      "chapterSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl01.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl01.jpg",
+      "caption": "PL01"
+    },
+    {
+      "id": "ma150-chapter-xxviii-the-magic-tables-of-the-planets-image-2",
+      "chapterSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl02.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl02.jpg",
+      "caption": "PL02"
+    },
+    {
+      "id": "ma150-chapter-xxviii-the-magic-tables-of-the-planets-image-3",
+      "chapterSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl03.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl03.jpg",
+      "caption": "PL03"
+    },
+    {
+      "id": "ma150-chapter-xxviii-the-magic-tables-of-the-planets-image-4",
+      "chapterSlug": "ma150-chapter-xxviii-the-magic-tables-of-the-planets",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl04.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl04.jpg",
+      "caption": "PL04"
+    },
+    {
+      "id": "ma157-chapter-xxxv-of-the-images-of-the-zodiac-image-1",
+      "chapterSlug": "ma157-chapter-xxxv-of-the-images-of-the-zodiac",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl05.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl05.jpg",
+      "caption": "PL05"
+    },
+    {
+      "id": "ma164-chapter-xliii-of-the-images-of-the-head-and-tail-of-the-dragon-of-the-moon-image-1",
+      "chapterSlug": "ma164-chapter-xliii-of-the-images-of-the-head-and-tail-of-the-dragon-of-the-moon",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/16500.jpg",
+      "localPath": "/assets/plates/16500.jpg",
+      "caption": "16500"
+    },
+    {
+      "id": "ma167-chapter-xlvi-conclusion-image-1",
+      "chapterSlug": "ma167-chapter-xlvi-conclusion",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl06.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl06.jpg",
+      "caption": "PL06"
+    },
+    {
+      "id": "ma217-chapter-v-of-the-power-and-virtue-of-the-divine-names-image-1",
+      "chapterSlug": "ma217-chapter-v-of-the-power-and-virtue-of-the-divine-names",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl07.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl07.jpg",
+      "caption": "PL07"
+    },
+    {
+      "id": "ma218-chapter-vi-of-intelligences-and-spirits-image-1",
+      "chapterSlug": "ma218-chapter-vi-of-intelligences-and-spirits",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl08.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl08.jpg",
+      "caption": "PL08"
+    },
+    {
+      "id": "ma218-chapter-vi-of-intelligences-and-spirits-image-2",
+      "chapterSlug": "ma218-chapter-vi-of-intelligences-and-spirits",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl09.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl09.jpg",
+      "caption": "PL09"
+    },
+    {
+      "id": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures-image-1",
+      "chapterSlug": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl10.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl10.jpg",
+      "caption": "PL10"
+    },
+    {
+      "id": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures-image-2",
+      "chapterSlug": "ma219-chapter-vii-of-the-order-of-evil-spirits-and-their-fall-and-different-natures",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl11.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl11.jpg",
+      "caption": "PL11"
+    },
+    {
+      "id": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists-image-1",
+      "chapterSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl12.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl12.jpg",
+      "caption": "PL12"
+    },
+    {
+      "id": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists-image-2",
+      "chapterSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl13.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl13.jpg",
+      "caption": "PL13"
+    },
+    {
+      "id": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists-image-3",
+      "chapterSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl14.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl14.jpg",
+      "caption": "PL14"
+    },
+    {
+      "id": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists-image-4",
+      "chapterSlug": "ma226-chapter-xiv-of-the-calculating-art-of-such-names-by-the-tradition-of-cabalists",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl15.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl15.jpg",
+      "caption": "PL15"
+    },
+    {
+      "id": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists-image-1",
+      "chapterSlug": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl16.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl16.jpg",
+      "caption": "PL16"
+    },
+    {
+      "id": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists-image-2",
+      "chapterSlug": "ma228-chapter-xvi-another-way-of-making-characters-according-to-the-cabalists",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl17.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl17.jpg",
+      "caption": "PL17"
+    },
+    {
+      "id": "ma229-chapter-xvii-there-is-another-kind-of-characters-or-marks-of-spirits-which-are-r-image-1",
+      "chapterSlug": "ma229-chapter-xvii-there-is-another-kind-of-characters-or-marks-of-spirits-which-are-r",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl18.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl18.jpg",
+      "caption": "PL18"
+    },
+    {
+      "id": "ma233-introduction-image-1",
+      "chapterSlug": "ma233-introduction",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl19.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl19.jpg",
+      "caption": "PL19"
+    },
+    {
+      "id": "ma246-exorcism-benedictions-and-conjurations-image-1",
+      "chapterSlug": "ma246-exorcism-benedictions-and-conjurations",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl20.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl20.jpg",
+      "caption": "PL20"
+    },
+    {
+      "id": "ma246-exorcism-benedictions-and-conjurations-image-2",
+      "chapterSlug": "ma246-exorcism-benedictions-and-conjurations",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl21.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl21.jpg",
+      "caption": "PL21"
+    },
+    {
+      "id": "ma248-title-page-image-1",
+      "chapterSlug": "ma248-title-page",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/pl22.jpg",
+      "thumbUrl": "https://www.sacred-texts.com/grim/magus/tn/generic.jpg",
+      "localPath": "/assets/plates/pl22.jpg",
+      "caption": "PL22"
+    },
+    {
+      "id": "ma251-of-the-making-of-the-crystal-and-the-form-of-preparation-for-a-vision-image-1",
+      "chapterSlug": "ma251-of-the-making-of-the-crystal-and-the-form-of-preparation-for-a-vision",
+      "sourceUrl": "https://www.sacred-texts.com/grim/magus/img/13500.jpg",
+      "localPath": "/assets/plates/13500.jpg",
+      "caption": "13500"
+    }
+  ]
+}

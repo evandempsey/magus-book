@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getGroupedChapters, manifest } from "../lib/edition";
+
+const grouped = getGroupedChapters();
+---
+
+<BaseLayout title="The Magus">
+  <main class="home-index">
+    <header class="home-title">
+      <p class="eyebrow">Francis Barrett, 1801</p>
+      <h1>The Magus</h1>
+      <nav class="home-actions" aria-label="Edition shortcuts">
+        <a href="/downloads/the-magus-francis-barrett.pdf">PDF</a>
+        <a href="/downloads/the-magus-francis-barrett.epub">EPUB</a>
+        <a href="/plates/">Plates</a>
+      </nav>
+    </header>
+
+    <section class="home-section" aria-labelledby="home-contents-heading">
+      <div class="home-section-heading">
+        <h2 id="home-contents-heading">Contents</h2>
+        <a href="/contents/">Search contents</a>
+      </div>
+
+      <div class="home-toc">
+        {grouped.map((section) => (
+          <section class="home-toc-section" id={section.id}>
+            <h3>{section.title}</h3>
+            <ol>
+              {section.chapters.map((chapter) => (
+                <li>
+                  <a href={`/read/${chapter.slug}/`}>{chapter.title}</a>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="home-downloads-heading">
+      <div class="home-section-heading">
+        <h2 id="home-downloads-heading">Downloads</h2>
+        <a href="/downloads/">Downloads page</a>
+      </div>
+      <div class="home-downloads">
+        <a href="/downloads/the-magus-francis-barrett.pdf">PDF</a>
+        <a href="/downloads/the-magus-francis-barrett.epub">EPUB</a>
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="home-plates-heading">
+      <div class="home-section-heading">
+        <h2 id="home-plates-heading">Plates</h2>
+        <a href="/plates/">Open plate index</a>
+      </div>
+      <div class="home-plates">
+        {manifest.plates.map((plate) => (
+          <a href="/plates/">
+            <span>{plate.caption}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

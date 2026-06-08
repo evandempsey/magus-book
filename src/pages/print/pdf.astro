@@ -1,0 +1,44 @@
+---
+import { chapters, manifest } from "../../lib/edition";
+import "../../styles/global.css";
+
+const coverPlate = manifest.plates.find((plate) => plate.sourceUrl.endsWith("/pl01.jpg")) ?? manifest.plates.find((plate) => plate.localPath);
+---
+
+<!doctype html>
+<html lang="en" class="print-document">
+  <head>
+    <meta charset="utf-8" />
+    <title>{manifest.title} by {manifest.author}</title>
+  </head>
+  <body class="print-body">
+    <section class="print-cover">
+      {coverPlate?.localPath && <img src={coverPlate.localPath} alt="" />}
+      <div>
+        <p>{manifest.publicationYear}</p>
+        <h1>{manifest.title}</h1>
+        <h2>{manifest.subtitle}</h2>
+        <p>by {manifest.author}</p>
+      </div>
+    </section>
+
+    <section class="print-toc">
+      <h1>Contents</h1>
+      <ol>
+        {manifest.chapters.map((chapter) => (
+          <li><a href={`#${chapter.slug}`}>{chapter.title}</a></li>
+        ))}
+      </ol>
+    </section>
+
+    {chapters.map((chapter) => (
+      <article class="print-chapter" id={chapter.slug}>
+        <header>
+          <p>{chapter.book} · {chapter.section}</p>
+          <h1>{chapter.title}</h1>
+        </header>
+        <div class="prose" set:html={chapter.html} />
+      </article>
+    ))}
+  </body>
+</html>

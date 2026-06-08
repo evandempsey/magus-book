@@ -1,0 +1,32 @@
+{
+  "name": "magus-book",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run check:data && astro build",
+    "preview": "astro preview",
+    "scrape": "tsx scripts/scrape.ts",
+    "fetch:plates": "tsx scripts/fetch-plates.ts",
+    "export:pdf": "npm run build && tsx scripts/export-pdf.ts",
+    "export:epub": "tsx scripts/export-epub.ts",
+    "export:all": "npm run scrape && npm run fetch:plates && npm run export:epub && npm run export:pdf",
+    "check:data": "tsx scripts/check-data.ts",
+    "verify:site": "tsx scripts/verify-site.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^6.4.4",
+    "jszip": "^3.10.1",
+    "marked": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "playwright": "^1.57.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
+  }
+}

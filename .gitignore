@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Astro/Vite build output and caches
+dist/
+.astro/
+.vite/
+
+# Generated verification and browser test output
+test-results/
+playwright-report/
+blob-report/
+coverage/
+
+# Generated source caches and downloadable exports
+data/raw/*.md
+data/raw/*.json
+public/downloads/*.pdf
+public/downloads/*.epub
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment and editor state
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Deployment/platform metadata
+.vercel/
+.netlify/
