@@ -215,6 +215,7 @@ a {
 .prose h3 + p,
 .prose blockquote + p,
 .prose figure + p,
+.prose .source-lines + p,
 .page-marker + p {
   text-indent: 0;
 }
@@ -261,6 +262,52 @@ a {
 .prose th {
   padding: 0.04in 0.055in;
   border: 0.5pt solid var(--pdf-rule);
+}
+
+.source-lines {
+  display: grid;
+  gap: 0.026in;
+  margin: 0.16in 0;
+  font-size: 10.9pt;
+  line-height: 1.27;
+  text-align: left;
+  hyphens: none;
+}
+
+.source-line {
+  padding-left: 0.16in;
+  text-indent: -0.16in;
+}
+
+.source-line-heading {
+  margin-top: 0.05in;
+  color: var(--pdf-accent);
+  font-family: var(--pdf-sans);
+  font-size: 8.5pt;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.source-line-with-reference {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 0.42in;
+  gap: 0.08in;
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.source-line-reference {
+  color: var(--pdf-muted);
+  font-family: var(--pdf-sans);
+  font-size: 8pt;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.source-lines .page-marker {
+  float: none;
+  margin: 0.08in 0 0.05in auto;
 }
 
 .page-marker {

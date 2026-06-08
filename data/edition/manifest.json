@@ -3,14 +3,14 @@
   "subtitle": "Or Celestial Intelligencer",
   "author": "Francis Barrett",
   "publicationYear": 1801,
-  "generatedAt": "2026-06-06T02:05:54.678Z",
+  "generatedAt": "2026-06-08T07:44:21.199Z",
   "source": {
     "label": "Internet Sacred Text Archive",
     "url": "https://www.sacred-texts.com/grim/magus/index.htm",
     "readerFallback": "https://r.jina.ai/http://https://www.sacred-texts.com/grim/magus/index.htm"
   },
   "totalChapters": 140,
-  "totalWords": 132313,
+  "totalWords": 132336,
   "sections": [
     {
       "id": "book-i-front-matter",
@@ -285,7 +285,7 @@
       "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma102.htm",
       "order": 3,
       "isAppendix": false,
-      "wordCount": 2037,
+      "wordCount": 2056,
       "pageMarkers": [
         "xx",
         "xxi",
@@ -305,7 +305,7 @@
       "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma103.htm",
       "order": 4,
       "isAppendix": false,
-      "wordCount": 175,
+      "wordCount": 176,
       "pageMarkers": [],
       "images": [],
       "previousSlug": "ma102-table-of-contents",
@@ -959,7 +959,7 @@
       "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma138.htm",
       "order": 39,
       "isAppendix": false,
-      "wordCount": 531,
+      "wordCount": 532,
       "pageMarkers": [
         "103",
         "104"
@@ -1013,7 +1013,7 @@
       "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma141.htm",
       "order": 42,
       "isAppendix": false,
-      "wordCount": 1252,
+      "wordCount": 1253,
       "pageMarkers": [
         "109",
         "110",
@@ -1157,7 +1157,7 @@
       "sourceUrl": "https://www.sacred-texts.com/grim/magus/ma148.htm",
       "order": 49,
       "isAppendix": false,
-      "wordCount": 1069,
+      "wordCount": 1070,
       "pageMarkers": [
         "136",
         "137",

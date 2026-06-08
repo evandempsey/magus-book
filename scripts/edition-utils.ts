@@ -17,6 +17,11 @@ marked.use({
   breaks: false
 });
 
+export interface StructuredLineBlock {
+  startLine: number;
+  lines: string[];
+}
+
 export const TEXT_CORRECTIONS: EditionCorrection[] = [
   {
     id: "ma100-long-s-cabaliftic",
@@ -208,7 +213,11 @@ function removeReaderChrome(markdown: string, sourceUrl: string): string {
   return lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
 }
 
-function collectPageMarkers(markdown: string): string[] {
+export function cleanSourceMarkdown(markdown: string, sourceUrl: string): string {
+  return removeReaderChrome(markdown, sourceUrl);
+}
+
+export function collectPageMarkers(markdown: string): string[] {
   return [...markdown.matchAll(/\[p\.\s*([ivxlcdm\d]+)\]\([^)]+\)/gi)]
     .map((match) => match[1])
     .filter((value, index, all) => all.indexOf(value) === index);
@@ -219,7 +228,7 @@ function captionForImageUrl(sourceUrl: string): string {
   return filename.replace(/\.[a-z0-9]+$/i, "").replace(/[-_]/g, " ").toUpperCase();
 }
 
-function collectImages(markdown: string, chapterSlug: string): EditionImage[] {
+export function collectImages(markdown: string, chapterSlug: string): EditionImage[] {
   const bySource = new Map<string, EditionImage>();
 
   for (const match of markdown.matchAll(/\[!\[(Image\s+\d+)\]\((https:\/\/(?:www\.)?sacred-texts\.com\/grim\/magus\/tn\/[^)]+)\)\s*Click to view\]\((https:\/\/(?:www\.)?sacred-texts\.com\/grim\/magus\/img\/[^)]+)\)/g)) {
@@ -278,6 +287,81 @@ function normalizeSourceArtifacts(markdown: string, images: EditionImage[]): str
   return output.replace(/\n{3,}/g, "\n\n").trim();
 }
 
+function isStructuredLineBlock(lines: string[]): boolean {
+  if (lines.length >= 4) return true;
+  return lines.length >= 2 && lines.some((line) => /^(?:Angels and Planets|Names of Hours|Hours\b|Numbers\.Divine Names)/i.test(line));
+}
+
+export function findStructuredLineBlocks(markdown: string): StructuredLineBlock[] {
+  const blocks: StructuredLineBlock[] = [];
+  const parts = markdown.split(/\n{2,}/);
+  let lineNumber = 1;
+
+  for (const part of parts) {
+    const lines = part
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean);
+
+    if (isStructuredLineBlock(lines)) {
+      blocks.push({
+        startLine: lineNumber,
+        lines
+      });
+    }
+
+    lineNumber += part.split("\n").length + 1;
+  }
+
+  return blocks;
+}
+
+function sourceLineClass(line: string): string {
+  const classes = ["source-line"];
+  if (/^(?:BOOK|PART|CHAP\.?|ALCHYMY\.|CABALISTICAL MAGIC\.|THE BIOGRAPHY\.|THE SCALE|THE NUMBER|Names of Hours|Angels and Planets|Hours\b|[♄♃♂☉♀☿☽]$)/i.test(line)) {
+    classes.push("source-line-heading");
+  }
+  return classes.join(" ");
+}
+
+function splitTrailingReference(line: string): { text: string; reference?: string } {
+  const match = line.match(/^(.+?)(?:\s+|(?<=[.;,)])(?=\d+$))((?:\d+|ib\.?))$/i);
+  if (!match) return { text: line };
+  return {
+    text: match[1].trim(),
+    reference: match[2]
+  };
+}
+
+function renderStructuredLine(line: string): string {
+  if (/^<span class="page-marker"/.test(line)) return line;
+
+  const { text, reference } = splitTrailingReference(line);
+  const textHtml = String(marked.parseInline(text));
+  if (!reference) {
+    return `<div class="${sourceLineClass(line)}">${textHtml}</div>`;
+  }
+
+  return `<div class="${sourceLineClass(line)} source-line-with-reference"><span class="source-line-text">${textHtml}</span><span class="source-line-reference">${reference}</span></div>`;
+}
+
+function preserveStructuredLineBlocks(markdown: string): string {
+  return markdown
+    .split(/\n{2,}/)
+    .map((part) => {
+      const lines = part
+        .split("\n")
+        .map((line) => line.trim())
+        .filter(Boolean);
+
+      if (!isStructuredLineBlock(lines)) return part;
+
+      return `<div class="source-lines" data-source-lines="true">\n${lines.map(renderStructuredLine).join("\n")}\n</div>`;
+    })
+    .join("\n\n")
+    .trim();
+}
+
 function applyTextCorrections(markdown: string, chapterId: string): string {
   return TEXT_CORRECTIONS
     .filter((correction) => correction.chapterId === chapterId)
@@ -313,7 +397,7 @@ export function buildChapter(
   const pageMarkers = collectPageMarkers(cleaned);
   const images = collectImages(cleaned, slug);
   const corrected = applyTextCorrections(cleaned, id);
-  const markdown = normalizeSourceArtifacts(corrected, images);
+  const markdown = preserveStructuredLineBlocks(normalizeSourceArtifacts(corrected, images));
   const plainText = toPlainText(markdown);
   const html = renderMarkdown(markdown);
 

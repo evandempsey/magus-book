@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run check:data && astro build",
+    "build": "npm run check:data && npm run audit:source && astro build",
     "preview": "astro preview",
     "scrape": "tsx scripts/scrape.ts",
     "fetch:plates": "tsx scripts/fetch-plates.ts",
@@ -13,6 +13,7 @@
     "export:epub": "tsx scripts/export-epub.ts",
     "export:all": "npm run scrape && npm run fetch:plates && npm run export:epub && npm run export:pdf",
     "check:data": "tsx scripts/check-data.ts",
+    "audit:source": "tsx scripts/audit-source.ts",
     "verify:site": "tsx scripts/verify-site.ts",
     "test": "vitest run"
   },

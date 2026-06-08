@@ -27,7 +27,7 @@ const chapterHtml = rewriteLocalHtmlPaths(chapter.html);
   <ReaderControls />
   <main class="reader-shell">
     <aside class="reader-toc" aria-label="Edition contents">
-      <a class="toc-home" href={sitePath("/contents/")}>Contents</a>
+      <a class="toc-home" href={sitePath("/")}>Contents</a>
       {grouped.map((section) => (
         <details open={section.chapterSlugs.includes(chapter.slug)}>
           <summary>{section.title}</summary>

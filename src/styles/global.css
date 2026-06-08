@@ -680,6 +680,49 @@ input {
   border: 1px solid var(--line);
 }
 
+.source-lines {
+  display: grid;
+  gap: 0.22rem;
+  margin: 1.45em 0;
+  font-size: 0.96em;
+  line-height: 1.42;
+}
+
+.source-line {
+  padding-left: 1.35em;
+  text-indent: -1.35em;
+}
+
+.source-line-heading {
+  margin-top: 0.45em;
+  color: var(--brass);
+  font-family: var(--sans);
+  font-size: 0.88em;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.source-line-with-reference {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 1rem;
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.source-line-reference {
+  color: var(--ink-muted);
+  font-family: var(--sans);
+  font-size: 0.82em;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.source-lines .page-marker {
+  margin: 0.85rem 0 0.45rem auto;
+}
+
 .page-marker {
   display: block;
   width: max-content;

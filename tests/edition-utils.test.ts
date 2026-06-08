@@ -70,6 +70,28 @@ Markdown Content:
     expect(chapter.html).toContain('src="/assets/plates/pl22.jpg"');
     expect(chapter.html).not.toContain("plate-reference");
   });
+
+  it("preserves long source register blocks as visible lines", () => {
+    const chapter = buildChapter(`
+Markdown Content:
+* * *
+Page.
+ADVERTISEMENT 1
+Introduction 3
+Of Natural Magic in general 10
+BOOK I.--PART I.
+`, {
+      title: "Table of Contents",
+      sourceUrl: "https://www.sacred-texts.com/grim/magus/ma102.htm",
+      book: "Book I",
+      section: "Front Matter",
+      isAppendix: false
+    }, 1);
+
+    expect(chapter.html).toContain('data-source-lines="true"');
+    expect(chapter.html).toContain("source-line-with-reference");
+    expect(chapter.html).not.toContain("<p>Page.\nADVERTISEMENT");
+  });
 });
 
 describe("plate assets", () => {
