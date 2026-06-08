@@ -1,13 +1,28 @@
 ---
-import { chapters, manifest } from "../../lib/edition";
+import "@fontsource/eb-garamond/400.css";
+import "@fontsource/eb-garamond/400-italic.css";
+import "@fontsource/eb-garamond/500.css";
+import "@fontsource/eb-garamond/600.css";
+import "@fontsource/source-sans-3/400.css";
+import "@fontsource/source-sans-3/600.css";
+import { chapters, getGroupedChapters, manifest } from "../../lib/edition";
 import { localAssetPath, rewriteLocalHtmlPaths } from "../../lib/paths";
-import "../../styles/global.css";
+import "../../styles/pdf.css";
 
 const coverPlate = manifest.plates.find((plate) => plate.sourceUrl.endsWith("/pl01.jpg")) ?? manifest.plates.find((plate) => plate.localPath);
-const printChapters = chapters.map((chapter) => ({
-  ...chapter,
-  html: rewriteLocalHtmlPaths(chapter.html)
-}));
+const toPrintHtml = (html: string) => rewriteLocalHtmlPaths(html).replace(/\sloading="lazy"/g, "");
+const grouped = getGroupedChapters();
+const printChapters = chapters.map((chapter, index) => {
+  const previous = chapters[index - 1];
+  const startsMajorSection = !previous || previous.section !== chapter.section || /^title page$/i.test(chapter.title);
+
+  return {
+    ...chapter,
+    html: toPrintHtml(chapter.html),
+    startsMajorSection,
+    isTitleEntry: /^title page$/i.test(chapter.title)
+  };
+});
 ---
 
 <!doctype html>
@@ -20,24 +35,30 @@ const printChapters = chapters.map((chapter) => ({
     <section class="print-cover">
       {coverPlate?.localPath && <img src={localAssetPath(coverPlate.localPath)} alt="" />}
       <div>
-        <p>{manifest.publicationYear}</p>
+        <p class="print-cover-year">{manifest.publicationYear}</p>
         <h1>{manifest.title}</h1>
         <h2>{manifest.subtitle}</h2>
-        <p>by {manifest.author}</p>
+        <p class="print-cover-author">by {manifest.author}</p>
       </div>
     </section>
 
     <section class="print-toc">
       <h1>Contents</h1>
-      <ol>
-        {manifest.chapters.map((chapter) => (
-          <li><a href={`#${chapter.slug}`}>{chapter.title}</a></li>
-        ))}
-      </ol>
+      {grouped.map((section) => (
+        <section class="print-toc-section">
+          <p>{section.book}</p>
+          <h2>{section.title}</h2>
+          <ol>
+            {section.chapters.map((chapter) => (
+              <li><a href={`#${chapter.slug}`}>{chapter.title}</a></li>
+            ))}
+          </ol>
+        </section>
+      ))}
     </section>
 
     {printChapters.map((chapter) => (
-      <article class="print-chapter" id={chapter.slug}>
+      <article class:list={["print-chapter", { "new-section": chapter.startsMajorSection, "title-entry": chapter.isTitleEntry }]} id={chapter.slug}>
         <header>
           <p>{chapter.book} · {chapter.section}</p>
           <h1>{chapter.title}</h1>

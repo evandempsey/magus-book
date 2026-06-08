@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
+    "@fontsource/eb-garamond": "^5.2.7",
+    "@fontsource/source-sans-3": "^5.2.9",
     "astro": "^6.4.4",
     "jszip": "^3.10.1",
     "marked": "^16.4.1"
