@@ -12,9 +12,7 @@ playwright-report/
 blob-report/
 coverage/
 
-# Generated source caches and downloadable exports
-data/raw/*.md
-data/raw/*.json
+# Downloadable exports
 public/downloads/*.pdf
 public/downloads/*.epub
 
